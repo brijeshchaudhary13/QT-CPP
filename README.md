@@ -4,7 +4,7 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 
 | **S. No.** | **Chapter**                                              | **Description**                                                                                            |
 | ---------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| 1          | [Introduction to Qt](/part1/introduction-to-qt.md)       | Learn the fundamentals of Qt, its history, architecture, editions, licensing, platforms, and applications. |
+| 1          | [Introduction to Qt](/QIntroduction.md)       | Learn the fundamentals of Qt, its history, architecture, editions, licensing, platforms, and applications. |
 | 2          | [Installing Qt](/part1/installing-qt.md)                 | Install Qt, configure development kits, understand SDK structure, and troubleshoot installation issues.    |
 | 3          | [Qt Creator IDE](/part1/qt-creator-ide.md)               | Learn the Qt Creator IDE, project management, debugging, designing, and analysis tools.                    |
 | 4          | [Qt Project Structure](/part1/qt-project-structure.md)   | Understand source files, headers, UI files, resources, translations, and build folders.                    |
