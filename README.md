@@ -6,13 +6,13 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | ---------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | 1          | [Introduction to Qt](/QIntroduction.md)       | Learn the fundamentals of Qt, its history, architecture, editions, licensing, platforms, and applications. |
 | 2          | [Installing Qt](/QInstallingQT.md)                 | Install Qt, configure development kits, understand SDK structure, and troubleshoot installation issues.    |
-| 3          | [Qt Creator IDE](/Qqtcreatoride.md)               | Learn the Qt Creator IDE, project management, debugging, designing, and analysis tools.                    |
-| 4          | [Qt Project Structure](/Qqtprojectstructure.md)   | Understand source files, headers, UI files, resources, translations, and build folders.                    |
-| 5          | [First Qt Application](/Qfirstqtapplication.md)   | Create your first Qt Widgets, Console, and QML applications using CMake and qmake.                         |
-| 6          | [Modern C++ Review](/Qmodernc++review.md)         | Review Modern C++ features required for efficient Qt programming.                                          |
-| 7          | [STL for Qt Developers](/Qstlforqtdevelopers.md) | Learn STL containers, algorithms, and compare them with Qt containers.                                     |
-| 8          | [QObject](/Qqobject.md)                             | Explore the foundation of Qt's object model and object-oriented framework.                                 |
-| 9          | [Object Tree](/Qobjecttree.md)                     | Learn parent-child ownership and automatic memory management.                                              |
+| 3          | [Qt Creator IDE](/QQtCreatorIDE.md)               | Learn the Qt Creator IDE, project management, debugging, designing, and analysis tools.                    |
+| 4          | [Qt Project Structure](/QQtProjectStructure.md)   | Understand source files, headers, UI files, resources, translations, and build folders.                    |
+| 5          | [First Qt Application](/QFirstQtApplication.md)   | Create your first Qt Widgets, Console, and QML applications using CMake and qmake.                         |
+| 6          | [Modern C++ Review](/QModernC++Review.md)         | Review Modern C++ features required for efficient Qt programming.                                          |
+| 7          | [STL for Qt Developers](/QSTLforQtDevelopers.md) | Learn STL containers, algorithms, and compare them with Qt containers.                                     |
+| 8          | [QObject](/QQObject.md)                             | Explore the foundation of Qt's object model and object-oriented framework.                                 |
+| 9          | [Object Tree](/QObjectTree.md)                     | Learn parent-child ownership and automatic memory management.                                              |
 | 10         | [Signals and Slots](/part3/signals-and-slots.md)         | Master Qt's communication mechanism and its internal implementation.                                       |
 | 11         | [Meta-Object System](/part3/meta-object-system.md)       | Learn reflection, RTTI, dynamic properties, and meta-object programming.                                   |
 | 12         | [MOC Internals](/part3/moc-internals.md)                 | Understand the Meta-Object Compiler and generated source code.                                             |
