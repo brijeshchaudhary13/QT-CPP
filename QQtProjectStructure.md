@@ -1,61 +1,10 @@
-Excellent. Now we begin one of the most important foundational chapters.
-
-Understanding the **Qt Project Structure** is essential because every Qt application—whether it's a small calculator or a large enterprise application like a **Medical Treatment Planning System (TPS)**, **CAD software**, or an **Automotive HMI**—follows this structure.
-
 > **Senior Developer Note**
 >
 > One of the easiest ways to identify an experienced Qt developer is by looking at how they organize a project. A clean project structure improves maintainability, scalability, build times, and team collaboration.
 
 ---
 
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART I — Qt Fundamentals
-
 # Chapter 4 — Qt Project Structure
-
-> **Level:** Beginner → Intermediate → Advanced → Expert
-
----
-
-# Chapter Objectives
-
-By the end of this chapter, you will understand:
-
-* What files make up a Qt project
-* The purpose of each file type
-* How Qt build tools (`moc`, `uic`, `rcc`) work together
-* The difference between source files and generated files
-* How CMake and qmake organize projects
-* Build directory structure
-* Recommended enterprise folder structures
-* Common mistakes and best practices
-
----
-
-# Table of Contents
-
-1. Introduction
-2. Anatomy of a Qt Project
-3. Source Files (`.cpp`)
-4. Header Files (`.h`)
-5. UI Files (`.ui`)
-6. Resource Files (`.qrc`)
-7. Translation Files (`.ts`, `.qm`)
-8. `moc` (Meta-Object Compiler)
-9. `uic` (User Interface Compiler)
-10. `rcc` (Resource Compiler)
-11. Build Folder
-12. CMake Project Structure
-13. qmake Project Structure
-14. Enterprise Folder Organization
-15. Generated Files
-16. Build Flow
-17. Qt 5.15 vs Qt 6.11
-18. Best Practices
-19. Common Mistakes
-20. Interview Questions
-21. Revision Notes
 
 ---
 
@@ -923,8 +872,14 @@ The biggest change is that **CMake has become the recommended build system** for
 * Never edit generated files manually.
 
 ---
+[⬅️ Qt Project Structure](/QQtProjectStructure.md)      |          [First Qt Application ➡️](/QFirstQtApplication.md)
+---
 
-# Next Chapter
+## **License**
+This project is licensed under the MIT License.
 
-## **Chapter 5 — First Qt Application**
+---
+
+Happy Coding!
+
 
