@@ -872,7 +872,7 @@ The biggest change is that **CMake has become the recommended build system** for
 * Never edit generated files manually.
 
 ---
-[⬅️ Qt Project Structure](/QQtProjectStructure.md)      |          [First Qt Application ➡️](/QFirstQtApplication.md)
+[⬅️ Qt Creator IDE](/QQtCreatorIDE.md)      |          [First Qt Application ➡️](/QFirstQtApplication.md)
 ---
 
 ## **License**
