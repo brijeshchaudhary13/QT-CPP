@@ -1,27 +1,4 @@
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART I — Qt Fundamentals
-
 # Chapter 1 — Introduction to Qt
-
----
-
-# Chapter Overview
-
-This chapter introduces the Qt framework from the ground up. By the end of this chapter, you should understand:
-
-* What Qt is
-* Why Qt was created
-* The history and evolution of Qt
-* Qt architecture
-* Qt editions and licensing
-* Supported platforms
-* Major Qt modules
-* Real-world applications built with Qt
-* Qt 5.15 vs Qt 6.11 overview
-* Where Qt fits in modern software development
-
-This chapter focuses on concepts rather than implementation. Later chapters will explore each topic in depth.
 
 ---
 
@@ -759,8 +736,15 @@ In this chapter, you learned:
 * Understanding the overall architecture provides the foundation for the remaining 159 chapters.
 
 ---
+ [Installing Qt ➡️](/QInstallingQT.md) 
+---
 
-## Next Chapter
+## **License**
+This project is licensed under the MIT License.
 
-**Chapter 2 — Installing Qt**
+---
+
+Happy Coding!
+
+
 
