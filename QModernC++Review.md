@@ -1,63 +1,4 @@
-Excellent. Before we enter **Qt Core (Part III)**, we must master the **Modern C++** features that Qt 5.15 and especially Qt 6.11 rely on.
-
-Many developers learn Qt first and C++ later. That approach leads to confusion about memory management, templates, lambdas, and ownership. A stronger approach is to understand the C++ language features that Qt builds upon.
-
-> **Goal of Part II**
->
-> By the end of this part, you'll understand why Qt APIs are designed the way they are and how to write modern, efficient, production-quality Qt code.
-
----
-
-
-
 # Chapter 6 — Modern C++ Review
-
-> **Level:** Beginner → Intermediate → Advanced → Expert
-
----
-
-# Chapter Overview
-
-This chapter covers the essential modern C++ features you need before diving into Qt Core.
-
-We will study:
-
-* RAII
-* Smart Pointers
-* Move Semantics
-* Lambda Expressions
-* `constexpr`
-* `enum class`
-* Templates
-* `auto`
-* `nullptr`
-* `override`
-* `final`
-
-These features are used extensively throughout Qt 5.15 and Qt 6.11.
-
----
-
-# Table of Contents
-
-1. Introduction
-2. Why Modern C++ Matters in Qt
-3. RAII
-4. Smart Pointers
-5. Move Semantics
-6. Lambda Expressions
-7. `constexpr`
-8. `enum class`
-9. Templates
-10. `auto`
-11. `nullptr`
-12. `override`
-13. `final`
-14. Qt 5.15 vs Qt 6.11
-15. Best Practices
-16. Common Mistakes
-17. Interview Questions
-18. Revision Notes
 
 ---
 
@@ -755,8 +696,13 @@ Qt 6 generally embraces modern C++ more fully, but these language features are a
 * `override` and `final` improve correctness and maintainability.
 
 ---
+[⬅️ QFirst Qt Application](/QFirstQtApplication.md)      |          [STL for Qt Developers ➡️](/QSTLforQtDevelopers.md)
+---
 
-# Next Chapter
+## **License**
+This project is licensed under the MIT License.
 
-## **Chapter 7 — STL for Qt Developers**
+---
+
+Happy Coding!
 
