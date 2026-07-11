@@ -1,50 +1,5 @@
 # Chapter 2 — Installing Qt
 
-> **Course Level:** Beginner → Intermediate → Advanced → Expert
-
----
-
-# Chapter Overview
-
-In this chapter, you will learn:
-
-* What is included in the Qt SDK
-* Online Installer
-* Offline Installation
-* Choosing the correct Qt version
-* Selecting Kits
-* Installing Qt Creator
-* Installing MinGW, MSVC and Clang
-* SDK Folder Structure
-* Environment Variables
-* Verifying Installation
-* Common Installation Errors
-* Qt 5.15 vs Qt 6.11 Installation Differences
-* Best Practices for Enterprise Development
-
----
-
-# Table of Contents
-
-1. Introduction
-2. What is the Qt SDK?
-3. System Requirements
-4. Downloading Qt
-5. Online Installer
-6. Offline Installation
-7. Choosing Qt Version
-8. Choosing Compiler (Kit)
-9. Installing Qt Creator
-10. SDK Folder Structure
-11. Qt Installation Components
-12. Environment Variables
-13. Verify Installation
-14. Common Installation Problems
-15. Qt 5.15 vs Qt 6.11
-16. Best Practices
-17. Interview Questions
-18. Revision Notes
-
 ---
 
 # 1. Introduction
@@ -965,7 +920,12 @@ For maintaining existing enterprise software:
 
 ---
 
-# What's Next?
+[⬅️ Introduction to Qt](/QIntroduction.md)      |          [Qt Creator IDE ➡️](/QQtCreatorIDE.md)
+---
 
-## Chapter 3 — Qt Creator IDE
+## **License**
+This project is licensed under the MIT License.
 
+---
+
+Happy Coding!
