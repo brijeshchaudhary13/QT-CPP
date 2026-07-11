@@ -808,7 +808,7 @@ For legacy projects:
 * CMake is the recommended build system for new projects.
 
 ---
-[⬅️ Qt Creator IDE](/QQtCreatorIDE.md)      |          [Qt Project Structure ➡️](/QQtProjectStructure.md)
+[⬅️ Installing Qt](/QInstallingQT.md)      |          [Qt Project Structure ➡️](/QQtProjectStructure.md)
 ---
 
 ## **License**
