@@ -1,68 +1,4 @@
-Excellent. We are now entering the **heart of the Qt Framework**.
-
-> **Important**
->
-> From **Chapter 8 onward**, the difficulty level increases significantly. These chapters are aimed at **Senior Qt Developers**, **Qt Architects**, and engineers who want to understand **Qt internals** rather than just use the framework.
-
-Almost every major Qt class eventually derives from `QObject`. If you master `QObject`, understanding the rest of Qt becomes much easier.
-
----
-
-
 # Chapter 8 — QObject (Complete Deep Dive)
-
-> **Level:** Beginner → Intermediate → Advanced → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What `QObject` is
-* Why Qt created `QObject`
-* Internal architecture
-* Memory layout
-* Parent-child ownership (overview)
-* Meta-object foundation
-* Signals and Slots foundation
-* Dynamic properties
-* Event system foundation
-* Thread affinity
-* Object lifetime
-* Qt source code overview
-* Performance considerations
-* Qt 5.15 vs Qt 6.11
-* Best practices
-
-> **Note:** Some topics (Object Tree, Signals & Slots, Meta-Object System, MOC) will be introduced here because they are tightly coupled to `QObject`. They will be covered in much greater depth in their dedicated chapters (Chapters 9–12).
-
----
-
-# Table of Contents
-
-1. What is QObject?
-2. Why QObject Exists
-3. History
-4. QObject Hierarchy
-5. Internal Architecture
-6. Memory Layout
-7. Object Lifecycle
-8. QObject Features
-9. QObject Source Code Overview
-10. Object Identity
-11. Parent Pointer
-12. Children List
-13. Thread Affinity
-14. Dynamic Properties (Introduction)
-15. Signals & Slots (Foundation)
-16. Meta-Object System (Foundation)
-17. Event System (Foundation)
-18. Qt 5.15 vs Qt 6.11
-19. Best Practices
-20. Common Mistakes
-21. Interview Questions
-22. Revision Notes
 
 ---
 
@@ -1633,12 +1569,16 @@ Very deep trees can increase lookup time.
 3. Analyze the performance implications of very large object trees in enterprise applications.
 
 ---
+[⬅️ STL for Qt Developers](/QSTLforQtDevelopers.md)      |          [Object Tree ➡️](/QObjectTree.md)
+---
 
-# Chapter 8 Progress
+## **License**
+This project is licensed under the MIT License.
 
-You have now completed the major conceptual and API foundations of `QObject`.
+---
 
-In the next chapter, we will move exactly according to your course structure:
+Happy Coding!
 
-# **Chapter 9 — Object Tree (Parent–Child Ownership)**
+
+
 
