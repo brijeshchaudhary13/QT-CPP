@@ -1,49 +1,5 @@
 # Chapter 3 — Qt Creator IDE
 
-> **Level:** Beginner → Intermediate → Advanced → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will be able to:
-
-* Navigate the Qt Creator interface efficiently.
-* Create and manage projects.
-* Configure Kits and Build Configurations.
-* Debug applications effectively.
-* Use Qt Designer integration.
-* Profile applications.
-* Integrate with Git.
-* Customize the IDE for productivity.
-* Understand Qt Creator's internal architecture.
-
----
-
-# Table of Contents
-
-1. What is Qt Creator?
-2. Qt Creator Architecture
-3. User Interface Overview
-4. Modes (Welcome, Edit, Design, Debug, Analyze, Projects, Help)
-5. Creating Projects
-6. Sessions
-7. Kits and Build Configurations
-8. Build System Integration (CMake/qmake)
-9. Running Applications
-10. Debugging
-11. Analyze Mode
-12. Designer Integration
-13. Help System
-14. Version Control Integration
-15. Keyboard Shortcuts
-16. Customizing Qt Creator
-17. Internal Architecture
-18. Qt 5.15 vs Qt 6.11
-19. Best Practices
-20. Interview Questions
-21. Revision Notes
-
 ---
 
 # 1. What is Qt Creator?
@@ -852,8 +808,12 @@ For legacy projects:
 * CMake is the recommended build system for new projects.
 
 ---
+[⬅️ Qt Creator IDE](/QQtCreatorIDE.md)      |          [Qt Project Structure ➡️](/QQtProjectStructure.md)
+---
 
-## Next Chapter
+## **License**
+This project is licensed under the MIT License.
 
-# **Chapter 4 — Qt Project Structure**
+---
 
+Happy Coding!
