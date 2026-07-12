@@ -718,7 +718,7 @@ object->setProperty("Version",
 
 ---
 
-[⬅️ Meta-Object System](/QMetaObjectSystem.md)      |          [QString  ➡️](/QQVariant.md)
+[⬅️ MOC Internals](/QMOCInternals.md)      |          [QString  ➡️](/QString.md)
 ---
 ## **License**
 This project is licensed under the MIT License.
