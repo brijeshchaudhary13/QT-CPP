@@ -13,8 +13,8 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 7          | [STL for Qt Developers](/QSTLforQtDevelopers.md) | Learn STL containers, algorithms, and compare them with Qt containers.                                     |
 | 8          | [QObject](/QQObject.md)                             | Explore the foundation of Qt's object model and object-oriented framework.                                 |
 | 9          | [Object Tree](/QObjectTree.md)                     | Learn parent-child ownership and automatic memory management.                                              |
-| 10         | [Signals and Slots](/part3/signals-and-slots.md)         | Master Qt's communication mechanism and its internal implementation.                                       |
-| 11         | [Meta-Object System](/part3/meta-object-system.md)       | Learn reflection, RTTI, dynamic properties, and meta-object programming.                                   |
+| 10         | [Signals and Slots](/SignalsSlots.md)         | Master Qt's communication mechanism and its internal implementation.                                       |
+| 11         | [Meta-Object System](/QMetaObjectSystem.md)       | Learn reflection, RTTI, dynamic properties, and meta-object programming.                                   |
 | 12         | [MOC Internals](/part3/moc-internals.md)                 | Understand the Meta-Object Compiler and generated source code.                                             |
 | 13         | [QVariant](/part3/qvariant.md)                           | Learn Qt's universal value container and type conversion system.                                           |
 | 14         | [QString](/part3/qstring.md)                             | Learn Unicode, UTF-8, implicit sharing, and string manipulation.                                           |
