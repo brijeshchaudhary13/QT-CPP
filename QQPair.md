@@ -1,72 +1,10 @@
-Excellent. This chapter is relatively small compared to containers like `QMap` or `QHash`, but it is **very important** because `QPair` appears throughout legacy Qt codebases and many enterprise applications.
-
-If you are working on:
-
-* Qt 4 projects
-* Qt 5.15 LTS applications
-* Medical TPS software
-* CAD software
-* Automotive applications
-* Large enterprise desktop systems
-
-you will frequently encounter code such as:
-
-```cpp
-QPair<QString, int>
-```
-
-However, in **modern C++17/20** and **Qt 6**, there has been a significant shift toward using **`std::pair`**.
-
 > **Senior Qt Architect Insight**
 >
 > For new Qt 6 projects, I generally recommend **`std::pair`** unless a Qt API specifically requires `QPair`. Understanding both is essential because you'll encounter `QPair` often in legacy code.
 
 ---
 
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART III — Qt Core
-
 # Chapter 21 — QPair (Complete Deep Dive)
-
-## Part 1 — Fundamentals, Memory Layout, APIs & Modern C++ Comparison
-
-> **Level:** Beginner → Advanced
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What `QPair` is
-* Why it exists
-* Internal memory layout
-* Constructors
-* Member access
-* Comparison operators
-* `qMakePair()`
-* `std::pair` comparison
-* Qt 5 vs Qt 6 differences
-* Production usage
-
----
-
-# Table of Contents
-
-1. What is QPair?
-2. Why Qt Created QPair
-3. Internal Structure
-4. Memory Layout
-5. Creating QPair
-6. Common APIs
-7. Comparison Operators
-8. Structured Bindings
-9. Performance
-10. Qt 5 vs Qt 6
-11. Best Practices
-12. Interview Questions
-13. Revision Notes
 
 ---
 
@@ -617,36 +555,6 @@ before choosing between:
 
 ---
 
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART III — Qt Core
-
-# Chapter 21 — QPair (Complete Deep Dive)
-
-## Part 2 — Modern C++, API Design, Performance & Production Usage
-
-> **Level:** Advanced → Expert
-
----
-
-# Table of Contents
-
-1. Copy & Move Semantics
-2. Template Type Deduction
-3. Returning Multiple Values
-4. `QPair` vs `std::pair`
-5. `QPair` vs Custom `struct`
-6. Performance Considerations
-7. ABI & Memory Layout
-8. Qt Source Code Usage
-9. Medical TPS Examples
-10. Qt 5 vs Qt 6
-11. Best Practices
-12. Interview Questions
-13. Revision Notes
-
----
-
 # 1. Copy & Move Semantics
 
 `QPair` supports copy and move operations, depending on the capabilities of the contained types.
@@ -1146,39 +1054,13 @@ The intent is immediately clear.
 
 ---
 
-# 🎯 Chapter 21 Complete
-
-You now understand:
-
-* Move semantics
-* Modern C++ usage
-* API design considerations
-* `QPair` vs `std::pair`
-* `QPair` vs custom `struct`
-* Performance implications
-* Production best practices
+[⬅️ QSet](/QQSet.md)      |          [QSharedPointer ➡️](/QQSharedPointer.md)
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🚀 Next Chapter
+Happy Coding!
 
-## **Chapter 22 — QSharedPointer (Complete Deep Dive)**
 
-This is one of the **most important smart pointer chapters** in Qt.
-
-We'll cover:
-
-* Why smart pointers are needed
-* Manual memory management problems
-* Reference counting
-* Internal implementation
-* Thread-safe reference counting
-* `QSharedPointer` lifecycle
-* `QWeakPointer`
-* Cyclic references
-* Custom deleters
-* Comparison with `std::shared_ptr`
-* Qt 5.15 vs Qt 6.11
-* Production usage in **medical software**, **TPS**, **CAD**, and **enterprise desktop applications**
-
-This chapter marks the beginning of **modern memory management in Qt**, a critical skill for writing robust, production-quality C++ applications.
