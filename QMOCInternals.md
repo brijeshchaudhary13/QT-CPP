@@ -12,61 +12,10 @@ If you understand **MOC (Meta-Object Compiler)**, you will understand how Qt imp
 Many developers use Qt for years without ever reading a `moc_*.cpp` file. A senior Qt engineer should be comfortable understanding what MOC generates and why.
 
 > **Important**
->
-> MOC is **not a C++ compiler**.
->
-> It is a **code generator** that runs **before** the C++ compiler.
 
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART III — Qt Core
 
 # Chapter 12 — MOC Internals (Meta-Object Compiler)
-
-> **Level:** Intermediate → Advanced → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* Why MOC exists
-* How MOC fits into the build pipeline
-* What files MOC processes
-* How MOC detects `Q_OBJECT`
-* Generated `moc_*.cpp` files
-* `staticMetaObject`
-* Meta-object tables
-* Generated signal implementations
-* Integration with CMake and qmake
-* AUTOMOC
-* Common MOC build errors
-* Debugging techniques
-* Qt 5.15 vs Qt 6.11
-
----
-
-# Table of Contents
-
-1. What is MOC?
-2. Why MOC Exists
-3. Build Pipeline
-4. How MOC Works
-5. Generated Files
-6. `staticMetaObject`
-7. Generated Signal Code
-8. Meta-Object Tables
-9. AUTOMOC
-10. qmake Integration
-11. Common Build Errors
-12. Performance
-13. Qt 5 vs Qt 6
-14. Best Practices
-15. Interview Questions
-16. Revision Notes
 
 ---
 
@@ -762,7 +711,13 @@ At this point, you understand the three pillars that make Qt unique:
 These concepts underpin nearly every major Qt feature.
 
 ---
+[⬅️ Meta-Object System](/QMetaObjectSystem.md)      |          [QVariant  ➡️](/QQVariant.md
 
-# Next Chapter
+## **License**
+This project is licensed under the MIT License.
 
-## **Chapter 13 — QVariant (Complete Deep Dive)**
+---
+
+Happy Coding!
+
+
