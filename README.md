@@ -25,7 +25,7 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 19         | [QHash](/QHash.md)                                 | Learn hash-based associative containers for fast lookup.                                                   |
 | 20         | [QSet](/QQSet.md)                                   | Learn unique-value container implementation.                                                               |
 | 21         | [QPair](/QQPair.md)                                 | Learn pair-based value storage.                                                                            |
-| 22         | [QSharedPointer](/part3/qsharedpointer.md)               | Learn reference-counted smart pointers.                                                                    |
+| 22         | [QSharedPointer](/QQSharedPointer.md)               | Learn reference-counted smart pointers.                                                                    |
 | 23         | [QScopedPointer](/part3/qscopedpointer.md)               | Learn scoped ownership and automatic resource management.                                                  |
 | 24         | [QPointer](/part3/qpointer.md)                           | Learn guarded pointers for QObject-derived classes.                                                        |
 | 25         | [QWeakPointer](/part3/qweakpointer.md)                   | Learn weak references in shared ownership models.                                                          |
