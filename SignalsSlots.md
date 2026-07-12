@@ -1,41 +1,9 @@
-Excellent. This is the **advanced** part of the Signals & Slots chapter.
-
-From now onward, we'll study the **internal implementation** that most Qt developers never explore. These are the concepts commonly discussed in **senior C++/Qt interviews**, **Qt source code reviews**, and **large enterprise applications**.
-
 > **Note**
 >
 > The code and diagrams below are **conceptual**. Qt's actual implementation details can vary between releases, but the architecture and ideas remain the same.
 
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART III — Qt Core
-
 # Chapter 10 — Signals & Slots (Advanced Deep Dive)
-
-## Part 2 — Internals, Connection Management, and Advanced Usage
-
----
-
-# Table of Contents
-
-1. `connect()` Overloads
-2. `disconnect()`
-3. Signal Overloading
-4. Slot Overloading
-5. Signal-to-Signal Connections
-6. `QMetaObject::Connection`
-7. Automatic Disconnection
-8. Connection Storage Internals
-9. Signal Activation Algorithm
-10. Queued Connections and Argument Transport
-11. Custom Types
-12. Debugging Signals and Slots
-13. Performance Considerations
-14. Best Practices
-15. Interview Questions
-
 ---
 
 # 1. `connect()` Overloads
@@ -634,11 +602,12 @@ In performance-critical inner loops, consider whether a direct function call is 
 * Queued connections use the event system to deliver calls across threads.
 
 ---
+[⬅️ Object Tree](/QObjectTree.md)      |          [Meta-Object System ➡️](/QMetaObjectSystem.md)
+---
 
-# End of Chapter 10
+## **License**
+This project is licensed under the MIT License.
 
-You now have a solid understanding of both the **public API** and the **internal architecture** of Qt's Signals & Slots mechanism.
+---
 
-## Next Chapter
-
-### **Chapter 11 — Meta-Object System (Reflection, RTTI, Dynamic Properties, QMetaObject, QMetaMethod, QMetaProperty)**
+Happy Coding!
