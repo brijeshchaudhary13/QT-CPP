@@ -1523,7 +1523,7 @@ Qt 6 encourages non-owning string views and generic string interfaces to reduce 
 
 ---
 
-[⬅️ MOC Internals](/QMOCInternals.md)      |          [QByteArray  ➡️](/QString.md)
+[⬅️ QVariant](/QQVariant.md)      |          [QByteArray  ➡️](/QQByteArray2.md)
 ---
 ## **License**
 This project is licensed under the MIT License.
