@@ -711,8 +711,8 @@ At this point, you understand the three pillars that make Qt unique:
 These concepts underpin nearly every major Qt feature.
 
 ---
-[⬅️ Meta-Object System](/QMetaObjectSystem.md)      |          [QVariant  ➡️](/QQVariant.md
-
+[⬅️ Meta-Object System](/QMetaObjectSystem.md)      |          [QVariant  ➡️](/QQVariant.md)
+---
 ## **License**
 This project is licensed under the MIT License.
 
