@@ -1545,7 +1545,7 @@ No major architectural change.
 | Session management | `QHash<QUuid, Session>`   |
 
 ---
-[⬅️ QVector](/QQVector.md)      |          [QSet ➡️](/QQSet.md)
+[⬅️ QMap](/QQMap.md)      |          [QSet ➡️](/QQSet.md)
 ---
 ## **License**
 This project is licensed under the MIT License.
