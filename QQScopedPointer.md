@@ -1,60 +1,11 @@
-Excellent. This chapter introduces one of the **fastest and simplest smart pointers in Qt**.
-
-Unlike `QSharedPointer`, which supports **shared ownership**, `QScopedPointer` represents **exclusive ownership**.
-
-There is **no reference counting**, **no atomic operations**, and **no ownership sharing**.
-
-It simply owns an object and destroys it automatically when it goes out of scope.
-
 > **Senior Qt Architect Insight**
 >
 > In modern C++ (C++11 and later), many new codebases prefer **`std::unique_ptr`** for exclusive ownership. However, `QScopedPointer` is still widely used in Qt itself and in legacy Qt 5 applications, so understanding it is essential.
 
 ---
 
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART III — Qt Core
-
 # Chapter 23 — QScopedPointer (Complete Deep Dive)
 
-## Part 1 — Fundamentals, RAII, Scope-Based Ownership & APIs
-
-> **Level:** Beginner → Advanced
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What `QScopedPointer` is
-* RAII (Resource Acquisition Is Initialization)
-* Scope-based ownership
-* Internal architecture
-* Memory layout
-* Object lifetime
-* Common APIs
-* Qt 5 vs Qt 6
-* Production usage
-
----
-
-# Table of Contents
-
-1. Why `QScopedPointer`?
-2. What is `QScopedPointer`?
-3. RAII
-4. Internal Architecture
-5. Memory Layout
-6. Creating `QScopedPointer`
-7. Common APIs
-8. Object Lifetime
-9. Performance
-10. Qt 5 vs Qt 6
-11. Best Practices
-12. Interview Questions
-13. Revision Notes
 
 ---
 
@@ -1145,5 +1096,11 @@ Although `QScopedPointer` is still available in Qt 6.11, modern C++ code often p
 
 # 🚀 Next Chapter
 
-## **Chapter 24 — QPointer (Complete Deep Dive)**
+[⬅️ QQSharedPointer.md](/QQSharedPointer.md)      |          [QPointer ➡️](/QPointer.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
+---
+
+Happy Coding!
