@@ -1349,9 +1349,7 @@ There is **no major conceptual difference** between Qt 5.15 and Qt 6.11.
 | Cyclic Relationships | `QSharedPointer` + `QWeakPointer` |
 
 ---
-
-## **Chapter 23 — QScopedPointer (Complete Deep Dive)**
-[⬅️ QPair](/QQPair.md)      |          [QScopedPointer ➡️](/QQPair.md)
+[⬅️ QPair](/QQPair.md)      |          [QScopedPointer ➡️](/QQScopedPointer.md)
 ---
 ## **License**
 This project is licensed under the MIT License.
