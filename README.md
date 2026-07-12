@@ -17,13 +17,13 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 11         | [Meta-Object System](/QMetaObjectSystem.md)       | Learn reflection, RTTI, dynamic properties, and meta-object programming.                                   |
 | 12         | [MOC Internals](/QMOCInternals.md)                 | Understand the Meta-Object Compiler and generated source code.                                             |
 | 13         | [QVariant](/QQVariant.md)                           | Learn Qt's universal value container and type conversion system.                                           |
-| 14         | [QString](/part3/qstring.md)                             | Learn Unicode, UTF-8, implicit sharing, and string manipulation.                                           |
-| 15         | [QByteArray](/part3/qbytearray.md)                       | Learn binary data storage and manipulation.                                                                |
-| 16         | [QList](/part3/qlist.md)                                 | Learn the QList container class.                                                                           |
-| 17         | [QVector](/part3/qvector.md)                             | Learn efficient dynamic arrays using QVector.                                                              |
-| 18         | [QMap](/part3/qmap.md)                                   | Learn ordered associative containers.                                                                      |
+| 14         | [QString](/QString.md)                             | Learn Unicode, UTF-8, implicit sharing, and string manipulation.                                           |
+| 15         | [QByteArray](/QQByteArray2.md)                       | Learn binary data storage and manipulation.                                                                |
+| 16         | [QList](/QQList.md)                                 | Learn the QList container class.                                                                           |
+| 17         | [QVector](/QQVector.md)                             | Learn efficient dynamic arrays using QVector.                                                              |
+| 18         | [QMap](/QQMap.md)                                   | Learn ordered associative containers.                                                                      |
 | 19         | [QHash](/part3/qhash.md)                                 | Learn hash-based associative containers for fast lookup.                                                   |
-| 20         | [QSet](/part3/qset.md)                                   | Learn unique-value container implementation.                                                               |
+| 20         | [QSet](/QQSet.md)                                   | Learn unique-value container implementation.                                                               |
 | 21         | [QPair](/part3/qpair.md)                                 | Learn pair-based value storage.                                                                            |
 | 22         | [QSharedPointer](/part3/qsharedpointer.md)               | Learn reference-counted smart pointers.                                                                    |
 | 23         | [QScopedPointer](/part3/qscopedpointer.md)               | Learn scoped ownership and automatic resource management.                                                  |
