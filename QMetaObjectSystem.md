@@ -17,69 +17,7 @@ Without the Meta-Object System, many Qt features simply would not exist.
 > When you see the `Q_OBJECT` macro in a class, you're not just enabling signals and slots—you are making that class part of the Qt Meta-Object System.
 
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART III — Qt Core
-
 # Chapter 11 — Meta-Object System
-
-**Topics Covered**
-
-* Reflection
-* RTTI
-* Dynamic Properties
-* `QMetaObject`
-* `QMetaMethod`
-* `QMetaProperty`
-* `QMetaEnum`
-* `QMetaObject::invokeMethod()`
-
-> **Level:** Beginner → Intermediate → Advanced → Expert
-
----
-
-# Chapter Objectives
-
-After this chapter, you will understand:
-
-* Why Qt created the Meta-Object System
-* What reflection is
-* Difference between Qt Reflection and C++ RTTI
-* `QMetaObject`
-* `QMetaMethod`
-* `QMetaProperty`
-* `QMetaEnum`
-* Dynamic Properties
-* Runtime Method Invocation
-* Internal Meta-Object Tables
-* How MOC generates metadata
-* Performance implications
-* Qt 5.15 vs Qt 6.11
-* Production use cases
-
----
-
-# Table of Contents
-
-1. What is the Meta-Object System?
-2. Why Qt Needed It
-3. Reflection
-4. Standard C++ RTTI vs Qt Meta-Object System
-5. `Q_OBJECT`
-6. `QMetaObject`
-7. `QMetaMethod`
-8. `QMetaProperty`
-9. `QMetaEnum`
-10. Dynamic Properties
-11. `QMetaObject::invokeMethod()`
-12. Internal Architecture
-13. Performance
-14. Qt 5.15 vs Qt 6.11
-15. Best Practices
-16. Common Mistakes
-17. Interview Questions
-18. Revision Notes
 
 ---
 
@@ -709,9 +647,16 @@ Qt 6 includes various internal improvements and better integration with modern C
 * `QMetaObject::invokeMethod()` enables runtime method invocation.
 
 ---
+[⬅️ Signals & Slots](/SignalsSlots.md)      |          [MOC Internals ➡️](/QMOCInternals.md)
+---
+
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+Happy Coding!
 
 
-# Next Chapter
 
-## **Chapter 12 — MOC Internals (Meta-Object Compiler)**
 
