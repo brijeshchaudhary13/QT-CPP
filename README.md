@@ -22,9 +22,9 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 16         | [QList](/QQList.md)                                 | Learn the QList container class.                                                                           |
 | 17         | [QVector](/QQVector.md)                             | Learn efficient dynamic arrays using QVector.                                                              |
 | 18         | [QMap](/QQMap.md)                                   | Learn ordered associative containers.                                                                      |
-| 19         | [QHash](/part3/qhash.md)                                 | Learn hash-based associative containers for fast lookup.                                                   |
+| 19         | [QHash](/QHash.md)                                 | Learn hash-based associative containers for fast lookup.                                                   |
 | 20         | [QSet](/QQSet.md)                                   | Learn unique-value container implementation.                                                               |
-| 21         | [QPair](/part3/qpair.md)                                 | Learn pair-based value storage.                                                                            |
+| 21         | [QPair](/QQPair.md)                                 | Learn pair-based value storage.                                                                            |
 | 22         | [QSharedPointer](/part3/qsharedpointer.md)               | Learn reference-counted smart pointers.                                                                    |
 | 23         | [QScopedPointer](/part3/qscopedpointer.md)               | Learn scoped ownership and automatic resource management.                                                  |
 | 24         | [QPointer](/part3/qpointer.md)                           | Learn guarded pointers for QObject-derived classes.                                                        |
