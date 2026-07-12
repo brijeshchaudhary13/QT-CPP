@@ -1,18 +1,3 @@
-Excellent. We are now entering one of the **most important topics in Modern C++ and Qt**.
-
-If I were interviewing a **Senior Qt Developer**, **Medical Software Engineer**, or **Qt Architect**, this is one of the first areas I would explore.
-
-Memory management is the source of many serious bugs:
-
-* Memory leaks
-* Double deletion
-* Dangling pointers
-* Use-after-free
-* Crashes
-* Undefined behavior
-
-`QSharedPointer` addresses many of these issues by introducing **shared ownership**.
-
 > **Senior Qt Architect Insight**
 >
 > Before using `QSharedPointer`, always ask:
@@ -23,51 +8,7 @@ Memory management is the source of many serious bugs:
 
 ---
 
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART III — Qt Core
-
 # Chapter 22 — QSharedPointer (Complete Deep Dive)
-
-## Part 1 — Fundamentals, Shared Ownership, Reference Counting & APIs
-
-> **Level:** Beginner → Advanced
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* Why smart pointers exist
-* Manual memory management problems
-* Shared ownership
-* Reference counting
-* Internal architecture
-* Memory layout
-* Object lifetime
-* Common APIs
-* Qt 5.15 vs Qt 6.11
-* Production usage
-
----
-
-# Table of Contents
-
-1. Why Smart Pointers?
-2. What is QSharedPointer?
-3. Ownership Models
-4. Reference Counting
-5. Internal Architecture
-6. Memory Layout
-7. Creating QSharedPointer
-8. Common APIs
-9. Object Lifetime
-10. Performance
-11. Qt 5 vs Qt 6
-12. Best Practices
-13. Interview Questions
-14. Revision Notes
 
 ---
 
@@ -685,54 +626,6 @@ Many real-world bugs in Qt applications come from misunderstanding:
 * Lifetime management
 
 This chapter covers what experienced Qt developers discuss during architecture reviews.
-
----
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART III — Qt Core
-
-# Chapter 22 — QSharedPointer (Complete Deep Dive)
-
-## Part 2 — Internals, Thread Safety, QWeakPointer, Casting & Production Architecture
-
-> **Level:** Advanced → Expert
-
----
-
-# Chapter Objectives
-
-After this chapter, you will understand:
-
-* Internal reference counting
-* Thread-safe implementation
-* `QWeakPointer`
-* Cyclic references
-* Custom deleters
-* Pointer casting
-* `QEnableSharedFromThis`
-* `QSharedPointer` vs `std::shared_ptr`
-* Production architecture
-* Common pitfalls
-
----
-
-# Table of Contents
-
-1. Internal Reference Counting
-2. Thread Safety
-3. Custom Deleters
-4. Cyclic References
-5. `QWeakPointer`
-6. `QEnableSharedFromThis`
-7. Pointer Casting
-8. `QSharedPointer` vs `std::shared_ptr`
-9. Production Architecture
-10. Medical TPS Examples
-11. Qt 5 vs Qt 6
-12. Best Practices
-13. Interview Questions
-14. Revision Notes
 
 ---
 
@@ -1458,4 +1351,12 @@ There is **no major conceptual difference** between Qt 5.15 and Qt 6.11.
 ---
 
 ## **Chapter 23 — QScopedPointer (Complete Deep Dive)**
+[⬅️ QPair](/QQPair.md)      |          [QScopedPointer ➡️](/QQPair.md)
+---
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+Happy Coding!
 
