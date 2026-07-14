@@ -17,50 +17,7 @@ Without `QWeakPointer`, applications using `QSharedPointer` can easily develop *
 > `QWeakPointer` is **not** a smart pointer that owns an object. It is an **observer** of an object managed by `QSharedPointer`. Its primary role is to **break cyclic ownership**.
 
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART III — Qt Core
-
 # Chapter 25 — QWeakPointer (Complete Deep Dive)
-
-## Part 1 — Fundamentals, Weak References, Control Blocks & APIs
-
-> **Level:** Beginner → Advanced
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What `QWeakPointer` is
-* Why weak references exist
-* How weak references work
-* Relationship with `QSharedPointer`
-* Control block concepts
-* Object lifetime
-* Common APIs
-* Qt 5.15 vs Qt 6.11
-* Production usage
-
----
-
-# Table of Contents
-
-1. Why `QWeakPointer`?
-2. What is `QWeakPointer`?
-3. Strong vs Weak References
-4. Internal Architecture
-5. Control Block
-6. Object Lifetime
-7. Common APIs
-8. Performance
-9. Qt 5 vs Qt 6
-10. Best Practices
-11. Interview Questions
-12. Revision Notes
-
 ---
 
 # 1. Why QWeakPointer?
@@ -1245,31 +1202,14 @@ Optional QPointer for safe observation
 
 ---
 
-# 🎯 Chapter 25 Complete
-
-You have now mastered the complete Qt smart pointer family:
-
-* ✅ `QSharedPointer`
-* ✅ `QWeakPointer`
-* ✅ `QScopedPointer`
-* ✅ `QPointer`
-
-You understand:
-
-* Ownership models
-* Lifetime management
-* Cyclic reference prevention
-* Thread-safe reference counting
-* `QObject` lifetime tracking
-* Enterprise architecture patterns
-* Medical TPS memory design
-
-This knowledge is essential for developing **robust, leak-free, production-quality Qt applications**.
+[⬅️ QPointer](/QQPointer.md)      |          [QApplication ➡️](/QQApplication.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🚀 Next Chapter
+Happy Coding!
 
 
-## **Chapter 26 — QApplication (Complete Deep Dive)**
 
