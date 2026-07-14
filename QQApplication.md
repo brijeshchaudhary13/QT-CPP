@@ -1521,8 +1521,6 @@ This architecture ensures that computationally intensive tasks run outside the G
 
 ---
 
-
-
 [⬅️ QWeakPointer](/QQWeakPointer.md)      |          [QCoreApplication ➡️](/QQCoreApplication.md) 
 ---
 ## **License**
