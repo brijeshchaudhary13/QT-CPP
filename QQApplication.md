@@ -1,66 +1,4 @@
-Excellent. We are now entering **Part IV – Application Architecture**.
-
-This is one of the **most important sections** of the Qt framework because **every Qt Widgets application starts here**.
-
-If you understand `QApplication`, you understand how Qt applications:
-
-* Start
-* Initialize
-* Process events
-* Handle windows
-* Manage styles
-* Communicate with the operating system
-* Shut down
-
-As a **Senior Qt Architect**, I consider this chapter one of the foundations for understanding Qt internals.
-
----
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART IV — Application Architecture
-
 # Chapter 26 — QApplication (Complete Deep Dive)
-
-## Part 1 — Fundamentals, Application Lifecycle, Initialization & Event Loop
-
-> **Level:** Beginner → Advanced
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What `QApplication` is
-* Why it is required
-* Application startup sequence
-* Relationship with `QCoreApplication` and `QGuiApplication`
-* Command-line argument handling
-* Global application object
-* Event loop basics
-* Memory ownership
-* Qt 5 vs Qt 6 differences
-
----
-
-# Table of Contents
-
-1. Introduction
-2. Why QApplication?
-3. Class Hierarchy
-4. Application Startup Sequence
-5. Internal Architecture
-6. Creating QApplication
-7. Command Line Arguments
-8. The Global Application Object
-9. The Event Loop
-10. Memory Ownership
-11. Qt 5 vs Qt 6
-12. Best Practices
-13. Interview Questions
-14. Revision Notes
-
 ---
 
 # 1. Introduction
@@ -1583,28 +1521,18 @@ This architecture ensures that computationally intensive tasks run outside the G
 
 ---
 
-# 🎯 Chapter 26 Complete
 
-You now understand:
 
-* The complete `QApplication` lifecycle
-* Event dispatcher architecture
-* Native event integration
-* Event queues
-* `notify()`
-* `processEvents()`
-* Nested event loops
-* Application attributes
-* Clipboard and style services
-* High DPI concepts
-* Qt 5 → Qt 6 behavior
-
-You now have a strong foundation for understanding **how every Qt Widgets application operates internally**.
+[⬅️ QWeakPointer](/QQWeakPointer.md)      |          [QCoreApplication ➡️](/QQCoreApplication.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🚀 Next Chapter
+Happy Coding!
 
-## **Chapter 27 — QCoreApplication (Complete Deep Dive)**
+
+
 
 
