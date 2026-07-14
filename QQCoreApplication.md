@@ -1,5 +1,3 @@
-Excellent. Now we are moving to the **foundation of the entire Qt framework**.
-
 Most developers know:
 
 ```cpp
@@ -36,54 +34,7 @@ As a **Senior Qt Architect**, I can confidently say:
 > **QCoreApplication is one of the five most important classes in Qt.**
 
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART IV — Application Architecture
-
 # Chapter 27 — QCoreApplication (Complete Deep Dive)
-
-## Part 1 — Fundamentals, Event Loop, Application Lifecycle & Core Architecture
-
-**Level:** Beginner → Advanced
-
----
-
-# Chapter Objectives
-
-After completing this chapter you will understand:
-
-* What `QCoreApplication` is
-* Why it exists
-* Application lifecycle
-* Console applications
-* Event loop
-* Global application object
-* Command-line processing
-* Library paths
-* Application metadata
-* Qt5 vs Qt6
-
----
-
-# Table of Contents
-
-1. Introduction
-2. Why QCoreApplication?
-3. Class Hierarchy
-4. Application Lifecycle
-5. Internal Architecture
-6. Creating QCoreApplication
-7. Command Line Arguments
-8. Application Metadata
-9. Global Instance
-10. Event Loop
-11. Library Paths
-12. Qt5 vs Qt6
-13. Best Practices
-14. Interview Questions
-15. Revision Notes
-
 ---
 
 # 1. Introduction
@@ -883,3 +834,19 @@ Exit
 This architecture is common when separating the computational engine from the graphical user interface.
 
 ---
+
+
+[⬅️ QApplication](/QQApplication.md)      |          [QEventLoop ➡️](/QEventLoop.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+Happy Coding!
+
+
+
+
+
+
