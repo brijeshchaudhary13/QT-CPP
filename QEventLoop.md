@@ -1,15 +1,3 @@
-Excellent. This is one of the **most important chapters in the entire Qt framework**.
-
-As a **Senior Qt Architect**, if I had to choose only **five chapters** that every Qt developer must master, they would be:
-
-1. ✅ QObject
-2. ✅ Signals & Slots
-3. ✅ Event Loop (**This Chapter**)
-4. ✅ Event System
-5. ✅ Model/View Architecture
-
----
-
 # Why is the Event Loop so Important?
 
 Without the event loop, **nothing in Qt works properly**.
@@ -48,50 +36,7 @@ Application Looks Dead
 
 ---
 
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART IV — Application Architecture
-
 # Chapter 28 — Event Loop (Complete Deep Dive)
-
-## Part 1 — Fundamentals, Architecture, Event Queue & Event Processing
-
-**Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What an event loop is
-* Why it exists
-* Internal architecture
-* Event queue
-* Event processing
-* `QEventLoop`
-* `exec()`
-* Idle state
-* Event lifecycle
-* Qt5 vs Qt6
-
----
-
-# Table of Contents
-
-1. Introduction
-2. Why Event Loop?
-3. Event Loop Architecture
-4. Event Queue
-5. Event Lifecycle
-6. QEventLoop
-7. exec()
-8. Waiting State
-9. Event Processing
-10. Qt5 vs Qt6
-11. Best Practices
-12. Interview Questions
-13. Revision Notes
 
 ---
 
@@ -1819,10 +1764,13 @@ User Clicks "Calculate Dose"
 This architecture is used in many professional desktop applications to keep the interface responsive while computationally intensive work executes in background threads.
 
 ---
+[⬅️ QCoreApplication](/QQCoreApplication.md)      |          [Event Dispatcher ➡️](/QEventDispatcher.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+Happy Coding!
 
 
-# 🚀 Next Chapter
-
-## **Chapter 29 — Event Dispatcher (Complete Deep Dive)**
-
-N
