@@ -1096,7 +1096,7 @@ Although `QScopedPointer` is still available in Qt 6.11, modern C++ code often p
 
 # 🚀 Next Chapter
 
-[⬅️ QQSharedPointer.md](/QQSharedPointer.md)      |          [QPointer ➡️](/QPointer.md) 
+[⬅️ QQSharedPointer.md](/QQSharedPointer.md)      |          [QPointer ➡️](/QQPointer.md) 
 ---
 ## **License**
 This project is licensed under the MIT License.
