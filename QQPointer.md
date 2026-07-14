@@ -1,5 +1,3 @@
-Excellent. **`QPointer` is one of the most misunderstood classes in Qt.**
-
 Many developers think:
 
 > **"QPointer is a smart pointer."**
@@ -25,49 +23,7 @@ This makes it extremely useful for GUI programming, asynchronous operations, tim
 
 ---
 
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART III — Qt Core
-
 # Chapter 24 — QPointer (Complete Deep Dive)
-
-## Part 1 — Fundamentals, Guarded Pointers, QObject Tracking & Internal Architecture
-
-> **Level:** Beginner → Advanced
-
----
-
-# Chapter Objectives
-
-After this chapter you will understand:
-
-* What QPointer is
-* Why it exists
-* How QObject destruction works
-* Automatic nullification
-* Internal implementation
-* Memory layout
-* Common APIs
-* Production usage
-* Qt5 vs Qt6
-
----
-
-# Table of Contents
-
-1. What is QPointer?
-2. Why QPointer?
-3. Raw Pointer Problem
-4. QObject Ownership
-5. Automatic Nullification
-6. Internal Architecture
-7. Memory Layout
-8. Common APIs
-9. Performance
-10. Qt5 vs Qt6
-11. Best Practices
-12. Interview Questions
-13. Revision Notes
 
 ---
 
@@ -1380,7 +1336,12 @@ There is **no major conceptual difference** between Qt 5.15 and Qt 6.11.
 ---
 
 
-# 🚀 Next Chapter
+[⬅️ QScopedPointer](/QQScopedPointer.md)      |          [QWeakPointer ➡️](/QQWeakPointer.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
-## **Chapter 25 — QWeakPointer (Complete Deep Dive)**
+---
+
+Happy Coding!
 
