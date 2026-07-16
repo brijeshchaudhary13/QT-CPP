@@ -1549,52 +1549,12 @@ The GUI thread remains responsive because heavy computation stays in worker thre
 
 ---
 
-# 🎯 Chapter 29 Complete
 
-You now understand:
-
-* `QAbstractEventDispatcher`
-* `processEvents()` internals
-* Thread-specific dispatchers
-* Timer registration
-* Socket notifier registration
-* Native event filters
-* Idle processing
-* Performance considerations
-* Qt 5 → Qt 6 behavior
-
-At this point, you have a solid understanding of how Qt receives and dispatches events from the operating system.
+[⬅️ Event Loop](/QEventLoop.md)      |          [Events ➡️](/QEvents.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🚀 Next Chapter
-
-## **Chapter 30 — Events (Complete Deep Dive)**
-
-This is one of the largest and most practical chapters in the course.
-
-We'll study the Qt event system in depth, including:
-
-* `QEvent`
-* Event types
-* `QObject::event()`
-* Mouse events
-* Keyboard events
-* Focus events
-* Paint events
-* Resize events
-* Move events
-* Close events
-* Show/Hide events
-* Drag & Drop events
-* Touch and gesture events
-* Tablet events
-* Wheel events
-* Custom events
-* Event propagation
-* Event acceptance and ignoring
-* Event filters
-* Qt source code concepts
-* Qt 5.15 vs Qt 6.11 differences
-
-This chapter is essential because **every interaction in a Qt application is represented as an event**. Understanding it is the key to mastering event handling, custom widgets, and advanced GUI programming.
+Happy Coding!
