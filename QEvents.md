@@ -2517,3 +2517,12 @@ This knowledge forms the foundation for building highly interactive Qt applicati
 # 🚀 Next Chapter
 
 ## **Chapter 31 — Event Filters (Complete Deep Dive)**
+
+[⬅️ QCoreApplication](/QQCoreApplication.md)      |          [Event Filters ➡️](/QEventDispatcher.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+Happy Coding!
