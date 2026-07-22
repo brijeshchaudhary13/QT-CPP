@@ -1,9 +1,8 @@
-> **Note**
->
-> The code and diagrams below are **conceptual**. Qt's actual implementation details can vary between releases, but the architecture and ideas remain the same.
 
----
-# Chapter 10 — Signals & Slots (Advanced Deep Dive)
+# Chapter 10 — Signals & Slots 
+* A Signal is a notification mechanism provided by Qt that informs other objects that a specific event or state change has occurred. A signal does not contain business logic; it simply announces that something happened. When a signal is emitted, Qt automatically invokes all slots connected to that signal.
+* A Slot is a member function that receives and processes a signal. It contains the logic that should execute when the corresponding signal is emitted. A slot can be connected to one or more signals.
+
 ---
 
 # 1. `connect()` Overloads
