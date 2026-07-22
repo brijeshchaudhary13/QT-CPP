@@ -1438,25 +1438,25 @@ Very deep trees can increase lookup time.
 
 # 21. Interview Questions
 
-# Q1. Why does QObject need the Q_OBJECT macro?
+## Q1. Why does QObject need the Q_OBJECT macro?
     Because it enables the Meta-Object Compiler (moc) to generate code for signals, slots, runtime type information, properties, and other meta-object features. Without it, those features are unavailable.
 
-# Q2. Why is QObject non-copyable?
+## Q2. Why is QObject non-copyable?
     Because copying an object with parents, children, signal-slot connections, timers, pending events, and thread affinity would create ambiguous ownership and inconsistent state. Qt therefore deletes the copy constructor and copy assignment operator.
 
-# Q3. Why use deleteLater() instead of delete?
+## Q3. Why use deleteLater() instead of delete?
     deleteLater() schedules deletion through the event loop, preventing crashes caused by deleting an object while it is processing an event or while queued events targeting it still exist.
 
-# Q4. What is the Meta-Object System?
+## Q4. What is the Meta-Object System?
     It is Qt's runtime reflection system built on QObject and the Q_OBJECT macro. It provides introspection, signal-slot dispatch, dynamic properties, and runtime method invocation.
 
-# Q5. How does QObject prevent memory leaks?
+## Q5. How does QObject prevent memory leaks?
     Through parent-child ownership. When a parent QObject is destroyed, it automatically destroys all its child QObjects recursively.
 
-# Q6. Can a QObject have multiple parents?
+## Q6. Can a QObject have multiple parents?
     No. A QObject can have only one parent at a time, although it can have many children.
 
-# Q7. Can you inherit from multiple QObject classes?
+## Q7. Can you inherit from multiple QObject classes?
     No. QObject must appear only once in the inheritance hierarchy. Multiple inheritance is allowed only if QObject is the first base class and the other base classes do not also inherit from QObject.
 
 
