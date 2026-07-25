@@ -26,15 +26,15 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 20         | [QSet](/QQSet.md)                                   | Learn unique-value container implementation.                                                               |
 | 21         | [QPair](/QQPair.md)                                 | Learn pair-based value storage.                                                                            |
 | 22         | [QSharedPointer](/QQSharedPointer.md)               | Learn reference-counted smart pointers.                                                                    |
-| 23         | [QScopedPointer](/part3/qscopedpointer.md)               | Learn scoped ownership and automatic resource management.                                                  |
-| 24         | [QPointer](/part3/qpointer.md)                           | Learn guarded pointers for QObject-derived classes.                                                        |
-| 25         | [QWeakPointer](/part3/qweakpointer.md)                   | Learn weak references in shared ownership models.                                                          |
-| 26         | [QApplication](/part4/qapplication.md)                   | Learn the foundation of every Qt Widgets application.                                                      |
-| 27         | [QCoreApplication](/part4/qcoreapplication.md)           | Learn application management without GUI support.                                                          |
-| 28         | [Event Loop](/part4/event-loop.md)                       | Understand the Qt event loop and application lifecycle.                                                    |
-| 29         | [Event Dispatcher](/part4/event-dispatcher.md)           | Learn how Qt dispatches and processes events internally.                                                   |
-| 30         | [Events](/part4/events.md)                               | Learn mouse, keyboard, touch, gesture, and tablet events.                                                  |
-| 31         | [Event Filters](/part4/event-filters.md)                 | Learn event interception and filtering mechanisms.                                                         |
+| 23         | [QScopedPointer](/QQScopedPointer.md)               | Learn scoped ownership and automatic resource management.                                                  |
+| 24         | [QPointer](/QQPointer.md)                           | Learn guarded pointers for QObject-derived classes.                                                        |
+| 25         | [QWeakPointer](/QQWeakPointer.md)                   | Learn weak references in shared ownership models.                                                          |
+| 26         | [QApplication](/QQApplication.md)                   | Learn the foundation of every Qt Widgets application.                                                      |
+| 27         | [QCoreApplication](/QQCoreApplication.md)           | Learn application management without GUI support.                                                          |
+| 28         | [Event Loop](/QEventLoop.md)                       | Understand the Qt event loop and application lifecycle.                                                    |
+| 29         | [Event Dispatcher](/QEventDispatcher.md)           | Learn how Qt dispatches and processes events internally.                                                   |
+| 30         | [Events](/QEvents.md)                               | Learn mouse, keyboard, touch, gesture, and tablet events.                                                  |
+| 31         | [Event Filters](/QEventFilters.md)                 | Learn event interception and filtering mechanisms.                                                         |
 | 32         | [Custom Events](/part4/custom-events.md)                 | Create and process user-defined events.                                                                    |
 | 33         | [Timers](/part4/timers.md)                               | Learn timer-based programming using Qt timers.                                                             |
 | 34         | [Thread Affinity](/part4/thread-affinity.md)             | Understand object ownership across multiple threads.                                                       |
