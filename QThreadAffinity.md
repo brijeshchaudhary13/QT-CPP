@@ -19,50 +19,7 @@ or random crashes caused by accessing `QObject` instances from the wrong thread.
 Many Qt interview questions revolve around this topic.
 
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART IV — Application Architecture
-
 # Chapter 34 — Thread Affinity (Complete Deep Dive)
-
-## Part 1 — QObject Thread Affinity, moveToThread(), Object Ownership & Event Delivery
-
-> **Level:** Intermediate → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What Thread Affinity is
-* Why Qt has Thread Affinity
-* `QObject::thread()`
-* `QObject::moveToThread()`
-* Object ownership
-* Parent-child restrictions
-* Event delivery
-* Timers and thread affinity
-* Qt 5 vs Qt 6
-
----
-
-# Table of Contents
-
-1. What is Thread Affinity?
-2. Why Thread Affinity Exists
-3. QObject and Threads
-4. QObject::thread()
-5. QObject::moveToThread()
-6. Parent-Child Rules
-7. Event Delivery
-8. Timer Affinity
-9. Qt5 vs Qt6
-10. Best Practices
-11. Interview Questions
-12. Revision Notes
-
 ---
 
 # 1. What is Thread Affinity?
@@ -696,15 +653,7 @@ If you understand this chapter, you'll be able to build stable, responsive, and 
 
 ---
 
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART IV — Application Architecture
-
 # Chapter 34 — Thread Affinity (Complete Deep Dive)
-
-## Part 2 — Connection Types, Worker Object Pattern, `deleteLater()`, `invokeMethod()` & Thread Cleanup
-
-> **Level:** Advanced → Expert
 
 ---
 
@@ -1470,24 +1419,14 @@ The GUI never blocks while the dose engine performs computation.
 
 ---
 
-# 🎯 Chapter 34 Complete
 
-You now have a complete understanding of **Qt Thread Affinity**, including:
 
-* Thread ownership
-* `moveToThread()`
-* Connection types
-* Queued vs direct execution
-* Worker Object Pattern
-* `deleteLater()`
-* Thread shutdown
-* Qt 5 → Qt 6 differences
-
-At this point, you have mastered one of the most important foundations of professional Qt application development.
+[⬅️ Timers](/QTimers.md)      |          [QWidget ➡️](/QQWidget.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🚀 Next Chapter
-
-## **Chapter 35 — QWidget (Complete Deep Dive)**
+Happy Coding!
 
