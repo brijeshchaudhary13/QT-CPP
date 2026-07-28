@@ -19,49 +19,7 @@ As a Qt Architect, I can confidently say:
 > **If Signals & Slots are Qt's communication mechanism, Event Filters are Qt's interception mechanism.**
 
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART IV — Application Architecture
-
 # Chapter 31 — Event Filters (Complete Deep Dive)
-
-## Part 1 — Introduction, Architecture, installEventFilter(), eventFilter() & Event Flow
-
-**Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After this chapter you will understand:
-
-* What Event Filters are
-* Why they exist
-* How `installEventFilter()` works
-* `eventFilter()`
-* Event interception
-* Event consumption
-* Local Event Filters
-* Event flow
-* Qt5 vs Qt6
-
----
-
-# Table of Contents
-
-1. Introduction
-2. Why Event Filters?
-3. Architecture
-4. installEventFilter()
-5. eventFilter()
-6. Event Flow
-7. Returning true vs false
-8. Local Event Filters
-9. Qt5 vs Qt6
-10. Best Practices
-11. Interview Questions
-12. Revision Notes
 
 ---
 
@@ -1547,24 +1505,11 @@ At this point, you have mastered the complete Qt Event Filter system, from basic
 
 ---
 
-# 🚀 Next Chapter
+[⬅️ Events](/QEvents.md)      |          [Custom Events ➡️](/QCustomEvents.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
-## **Chapter 32 — Custom Events (Complete Deep Dive)**
+---
 
-The next chapter focuses entirely on creating your own event types and integrating them into Qt's event system.
-
-Topics include:
-
-* Why custom events are useful
-* Creating classes derived from `QEvent`
-* `QEvent::registerEventType()`
-* `postEvent()` vs `sendEvent()`
-* Handling custom events in `event()`
-* Cross-thread event delivery
-* Event priorities
-* Performance considerations
-* Qt source code concepts
-* Enterprise use cases
-* Medical TPS and CAD examples
-
-This chapter will teach you how to extend Qt's event system with application-specific events in a clean, scalable, and thread-safe way.
+Happy Coding!
