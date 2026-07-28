@@ -1,22 +1,3 @@
-Excellent. We are now entering **Part V – GUI Programming**, which is the heart of traditional Qt desktop application development.
-
-If **`QObject`** is the foundation of Qt, then **`QWidget`** is the foundation of Qt Widgets.
-
-Almost every classic Qt desktop application is built from `QWidget`.
-
-Examples:
-
-* Qt Creator
-* Qt Designer
-* Medical TPS (Isogray, Eclipse, RayStation-style applications)
-* CAD software
-* Enterprise ERP systems
-* Automotive engineering tools
-
-Everything visible on the screen—buttons, labels, text boxes, tables, dialogs, windows—is ultimately based on **`QWidget`**.
-
----
-
 # Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
 
 # PART V — GUI Programming
@@ -26,40 +7,6 @@ Everything visible on the screen—buttons, labels, text boxes, tables, dialogs,
 ## Part 1 — Introduction, Architecture, Widget Lifecycle, Parent-Child Hierarchy & Visibility
 
 **Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What `QWidget` is
-* QWidget architecture
-* Widget inheritance hierarchy
-* Widget lifecycle
-* Parent-child widgets
-* Top-level vs child widgets
-* Widget creation and destruction
-* Visibility
-* Qt 5 vs Qt 6
-
----
-
-# Table of Contents
-
-1. What is QWidget?
-2. Why QWidget?
-3. QWidget Architecture
-4. Inheritance Hierarchy
-5. Widget Lifecycle
-6. Parent-Child Hierarchy
-7. Top-Level vs Child Widgets
-8. Widget Visibility
-9. QWidget Memory Management
-10. Qt 5 vs Qt 6
-11. Best Practices
-12. Interview Questions
-13. Revision Notes
 
 ---
 
