@@ -1,17 +1,3 @@
-Excellent. We now begin **Chapter 33 – Timers**, one of the most practical topics in Qt.
-
-Almost every professional Qt application uses timers.
-
-Examples:
-
-* Medical TPS → Auto-save every 5 minutes
-* CAD → Cursor blinking, background regeneration
-* Automotive HMI → CAN bus status refresh
-* Industrial Automation → PLC polling
-* Enterprise ERP → Session timeout
-* Chat Application → Heartbeat messages
-* Media Player → Playback position updates
-
 A common misconception is:
 
 > **"QTimer creates a thread."**
@@ -21,51 +7,7 @@ A common misconception is:
 A `QTimer` is **not** a thread. It is an event source managed by the **event loop** and **event dispatcher**.
 
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART IV — Application Architecture
-
 # Chapter 33 — Timers (Complete Deep Dive)
-
-## Part 1 — QTimer, Timer Events, startTimer(), killTimer() & Event Loop Integration
-
-> **Level:** Beginner → Advanced
-
----
-
-# Chapter Objectives
-
-After this chapter, you will understand:
-
-* What timers are
-* Why Qt uses timers
-* `QTimer`
-* `QBasicTimer`
-* `QObject::startTimer()`
-* `QObject::killTimer()`
-* `QTimerEvent`
-* Timer lifecycle
-* Event loop integration
-* Qt 5 vs Qt 6
-
----
-
-# Table of Contents
-
-1. What is a Timer?
-2. Why Timers?
-3. Timer Architecture
-4. QTimer
-5. QBasicTimer
-6. QObject Timers
-7. QTimerEvent
-8. Timer Lifecycle
-9. Event Flow
-10. Qt5 vs Qt6
-11. Best Practices
-12. Interview Questions
-13. Revision Notes
 
 ---
 
@@ -1597,40 +1539,12 @@ Notice that the timer does **not** perform the dose calculation itself. It only 
 
 ---
 
-# 15. Revision Notes
-
-* Timers are event-driven, not thread-driven.
-* Timer accuracy depends on the OS and event loop.
-* Qt provides Precise, Coarse, and VeryCoarse timer types.
-* Zero-interval timers execute when the event loop is idle enough to process them.
-* `QChronoTimer` introduces `std::chrono`-based APIs in Qt 6.8+.
-* Worker-thread timers require an event loop.
-* Prefer fewer timers with lightweight timeout handlers.
+[⬅️ Custom Events](/QQCustomEvents.md)      |          [Thread Affinity ➡️](/QThreadAffinity.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🎯 Chapter 33 Complete
-
-You now have a complete understanding of **Qt Timers**, including:
-
-* `QTimer`
-* `QBasicTimer`
-* `QObject::startTimer()`
-* `QTimerEvent`
-* Timer accuracy
-* Timer types
-* Timer drift
-* Zero-interval timers
-* `QChronoTimer`
-* Worker-thread timers
-* Performance optimization
-* Qt 5 → Qt 6 migration
-
-You now understand not only **how to use timers**, but also **how Qt implements and schedules them internally**.
-
----
-
-# 🚀 Next Chapter
-
-## **Chapter 34 — Thread Affinity (Complete Deep Dive)**
+Happy Coding!
 
