@@ -1,12 +1,5 @@
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART V — GUI Programming
-
-# Chapter 35 — QWidget (Complete Deep Dive)
 
 ## Part 1 — Introduction, Architecture, Widget Lifecycle, Parent-Child Hierarchy & Visibility
-
-**Level:** Beginner → Expert
 
 ---
 
@@ -1490,41 +1483,11 @@ Doctor Resizes Main Window
 A well-designed TPS keeps painting fast by recalculating layout only when necessary and rendering efficiently.
 
 ---
-
-# 16. Revision Notes
-
-* Geometry defines a widget's position and size.
-* `move()` changes position; `resize()` changes size; `setGeometry()` changes both.
-* Qt uses local, parent, and global coordinate systems.
-* `update()` schedules repainting; `repaint()` paints immediately.
-* Window flags control window behavior.
-* Widget attributes modify specific behaviors.
-* Modern Qt generally uses alien widgets for child widgets unless native windows are required.
-* Efficient painting is essential for responsive applications.
+[⬅️ Thread Affinity](/QThreadAffinity.md)      |          [QWidget Hierarchy ➡️](/QQWidgetHierarchy.md)
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🎯 Chapter 35 Complete
-
-You now have a complete understanding of **QWidget**, including:
-
-* Widget architecture
-* Lifecycle
-* Parent-child ownership
-* Geometry
-* Coordinate systems
-* Painting
-* `update()` vs `repaint()`
-* Window flags
-* Widget attributes
-* Native vs alien widgets
-* Performance optimization
-
-You are now ready to build custom widgets and understand how Qt renders and manages desktop user interfaces.
-
----
-
-# 🚀 Next Chapter
-
-## **Chapter 36 — QWidget Hierarchy (Complete Deep Dive)**
-
+Happy Coding!
