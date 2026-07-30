@@ -656,7 +656,7 @@ Professional MDI applications usually support switching between documents effici
 
 ---
 
-[⬅️ Dock Widgets](/QDockWidgets.md)      |          [Drag and Drop ➡️](/QMDIApplications.md)
+[⬅️ Dock Widgets](/QDockWidgets.md)      |          [Drag and Drop ➡️](/DragandDrop.md)
 ---
 ## **License**
 This project is licensed under the MIT License.
