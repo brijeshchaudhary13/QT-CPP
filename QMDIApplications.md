@@ -1,70 +1,5 @@
-Excellent. We'll restart from the **correct roadmap**.
 
-From now onward, I will follow **your 160-chapter index exactly** without skipping, merging, or renumbering any chapters.
-
----
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART V — Advanced Widget Architecture
-
-# Chapter 44 — MDI Applications (Complete Deep Dive)
-
-## Multiple Document Interface (MDI) Applications using QMdiArea & QMdiSubWindow
-
-> **Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What is MDI?
-* SDI vs MDI
-* Document-based applications
-* `QMdiArea`
-* `QMdiSubWindow`
-* Creating MDI applications
-* Window management
-* Cascading and tiling windows
-* Tabbed MDI
-* Managing multiple documents
-* Saving and restoring MDI state
-* Professional IDE architecture
-* Medical TPS and CAD use cases
-* Qt 5.15 vs Qt 6.11
-* Best practices
-* Common mistakes
-* Interview questions
-
----
-
-# Table of Contents
-
-1. Introduction to MDI
-2. What is SDI?
-3. What is MDI?
-4. SDI vs MDI
-5. MDI Architecture
-6. QMdiArea
-7. QMdiSubWindow
-8. Creating an MDI Application
-9. Window Management
-10. Cascading Windows
-11. Tiling Windows
-12. Tabbed View Mode
-13. Managing Documents
-14. Menus and Toolbars
-15. Saving and Restoring State
-16. Enterprise Applications
-17. Qt Internals
-18. Qt 5 vs Qt 6
-19. Best Practices
-20. Common Mistakes
-21. Interview Questions
-22. Revision Notes
-
+# Chapter 44 — MDI Applications
 ---
 
 # 1. Introduction to MDI
@@ -721,50 +656,12 @@ Professional MDI applications usually support switching between documents effici
 
 ---
 
-# 22. Revision Notes
-
-* **SDI** displays one document per main window.
-* **MDI** manages multiple documents inside a single main window.
-* `QMdiArea` is the workspace that manages child windows.
-* `QMdiSubWindow` represents an individual document window.
-* Qt supports **cascade**, **tile**, and **tabbed** layouts.
-* MDI is commonly used in CAD software, IDEs, image editors, and medical applications.
-* `QSettings` can be used to persist window layouts across application sessions.
+[⬅️ Dock Widgets](/QDockWidgets.md)      |          [Drag and Drop ➡️](/QMDIApplications.md)
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🎯 Chapter 44 Complete
+Happy Coding!
 
-You now understand:
-
-* SDI vs MDI
-* `QMdiArea`
-* `QMdiSubWindow`
-* Creating MDI applications
-* Managing multiple documents
-* Cascading and tiling windows
-* Tabbed MDI
-* Document lifecycle
-* Enterprise MDI architectures
-* Qt 5.15 vs Qt 6.11 differences (minimal)
-
----
-
-# 🚀 Next Chapter
-
-## **Chapter 45 — Drag and Drop (Complete Deep Dive)**
-
-We'll cover:
-
-* Drag-and-drop architecture
-* `QDrag`
-* `QMimeData`
-* Drag source and drop target
-* Drag events (`dragEnterEvent()`, `dragMoveEvent()`, `dropEvent()`)
-* Internal vs external drag-and-drop
-* Copy, Move, and Link actions
-* File drag-and-drop
-* Custom MIME types
-* Cross-application drag-and-drop
-* Enterprise examples (File Explorer, CAD, Medical TPS, IDEs)
-* Best practices, common mistakes, and interview questions
