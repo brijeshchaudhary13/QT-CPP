@@ -1,70 +1,5 @@
-Excellent. **Chapter 39 is one of the most practical chapters in Qt.**
 
-Almost every Qt desktop application uses dialogs dozens or even hundreds of times.
-
-Examples:
-
-* Login dialog
-* Settings dialog
-* Patient information dialog
-* Beam properties dialog
-* Dose calculation dialog
-* About dialog
-* File open/save dialog
-* Color picker
-* Font selector
-* Warning dialogs
-* Confirmation dialogs
-
-A professional application such as a **Treatment Planning System (TPS)** may contain **100+ custom dialogs**.
-
-Understanding `QDialog` is therefore essential.
-
----
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART V — GUI Programming
-
-# Chapter 39 — Dialogs (Complete Deep Dive)
-
-## Part 1 — QDialog Architecture, Lifecycle, Modal & Modeless Dialogs, Accept/Reject & Dialog Results
-
-> **Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What is `QDialog`
-* Dialog architecture
-* Dialog lifecycle
-* Modal dialogs
-* Modeless dialogs
-* `accept()`
-* `reject()`
-* `done()`
-* Dialog results
-* Qt 5 vs Qt 6
-
----
-
-# Table of Contents
-
-1. What is QDialog?
-2. Dialog Architecture
-3. Dialog Lifecycle
-4. Modal Dialogs
-5. Modeless Dialogs
-6. Dialog Results
-7. accept(), reject(), done()
-8. Dialog Buttons
-9. Qt 5 vs Qt 6
-10. Best Practices
-11. Interview Questions
-12. Revision Notes
+# Chapter 39 — Dialogs 
 
 ---
 
@@ -1705,31 +1640,13 @@ This workflow combines several standard dialog classes to provide a smooth user 
 * Always validate data before accepting a dialog.
 
 ---
-
-# 🎯 Chapter 39 Complete
-
-You now have a complete understanding of **Qt Dialogs**, including:
-
-* `QDialog`
-* Dialog lifecycle
-* Modal and modeless dialogs
-* `accept()`, `reject()`, and `done()`
-* `QDialogButtonBox`
-* `QMessageBox`
-* `QFileDialog`
-* `QColorDialog`
-* `QFontDialog`
-* `QInputDialog`
-* `QWizard`
-* Dialog validation
-* Enterprise dialog design
-* Qt 5 → Qt 6 compatibility
-
-You now have the knowledge required to design professional dialog systems for desktop applications ranging from simple utilities to complex medical, CAD, and enterprise software.
+[⬅️ Layout Management](/QLayoutManagement.md)      |          [Menus ➡️](/QDialogs.md)
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🚀 Next Chapter
+Happy Coding!
 
-## **Chapter 40 — Menus (Complete Deep Dive)**
 
