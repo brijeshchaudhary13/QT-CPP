@@ -1,77 +1,4 @@
-Excellent. **Toolbars are the second most frequently used command interface after menus.**
-
-In professional applications, users rarely open menus repeatedly. Instead, they use toolbars because they provide **one-click access** to commonly used commands.
-
-Applications such as:
-
-* Qt Creator
-* Visual Studio
-* AutoCAD
-* Adobe Photoshop
-* Blender
-* Medical TPS
-* Enterprise ERP
-
-all rely heavily on well-designed toolbars.
-
-The most important concept to remember is:
-
-> **A toolbar does not contain business logic. It displays `QAction` objects.**
-
-The same `QAction` can simultaneously appear in:
-
-* Menu
-* Toolbar
-* Context Menu
-* Keyboard Shortcut
-
-This is one of Qt's most elegant design patterns.
-
----
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART V — GUI Programming
-
-# Chapter 41 — Toolbars (Complete Deep Dive)
-
-## Part 1 — QToolBar, QAction Integration, Toolbar Architecture & Embedded Widgets
-
-> **Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What is a toolbar?
-* `QToolBar`
-* Toolbar architecture
-* Toolbar ownership
-* `QAction` integration
-* Toolbar separators
-* Embedded widgets
-* Toolbar lifecycle
-* Qt 5 vs Qt 6
-
----
-
-# Table of Contents
-
-1. Introduction
-2. Toolbar Architecture
-3. QToolBar
-4. Adding Actions
-5. Reusing QAction
-6. Toolbar Separators
-7. Embedded Widgets
-8. Toolbar Lifecycle
-9. Qt 5 vs Qt 6
-10. Best Practices
-11. Interview Questions
-12. Revision Notes
-
+# Chapter 41 — Toolbars 
 ---
 
 # 1. Introduction
@@ -1551,22 +1478,13 @@ Users can:
 * Restore their preferred layout at the next application launch.
 
 ---
-
-# 18. Revision Notes
-
-* Toolbars can be movable and floatable.
-* `QToolButton` provides advanced button behavior such as popup menus.
-* Tool button styles control how icons and text are displayed.
-* Toolbar icon size can be customized.
-* `toggleViewAction()` allows users to show or hide toolbars.
-* `saveState()` and `restoreState()` preserve toolbar layouts.
-* Qt automatically handles toolbar overflow.
-* Internally, `QToolBar` displays `QAction` objects using `QToolButton` instances.
+[⬅️ Menus](/QMenus.md)      |          [Status Bars ➡️](/QStatusBars.md)
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
+Happy Coding!
 
-# 🚀 Next Chapter
-
-## **Chapter 42 — Status Bars (Complete Deep Dive)**
 
