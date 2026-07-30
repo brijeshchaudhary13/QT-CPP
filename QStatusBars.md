@@ -1,5 +1,3 @@
-Excellent. **The Status Bar is one of the most underrated components in Qt.**
-
 Many beginners think it is only for displaying text like:
 
 ```text
@@ -21,62 +19,8 @@ In reality, professional applications use the status bar to display:
 * Patient information
 * Calculation progress
 
-Applications such as:
-
-* Qt Creator
-* Visual Studio
-* AutoCAD
-* Adobe Photoshop
-* Medical TPS
-* Enterprise ERP
-
-all use the status bar extensively.
-
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART V — GUI Programming
-
 # Chapter 42 — Status Bars (Complete Deep Dive)
-
-## Part 1 — QStatusBar, Status Messages, Permanent Widgets, Progress Indicators & Status Tips
-
-> **Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What is a status bar?
-* `QStatusBar`
-* Temporary messages
-* Permanent widgets
-* Progress indicators
-* Status tips
-* Embedded widgets
-* Status bar architecture
-* Qt 5 vs Qt 6
-
----
-
-# Table of Contents
-
-1. Introduction
-2. QStatusBar
-3. Temporary Messages
-4. Permanent Widgets
-5. Embedded Widgets
-6. Progress Indicators
-7. QAction Status Tips
-8. Status Bar Architecture
-9. Qt 5 vs Qt 6
-10. Best Practices
-11. Interview Questions
-12. Revision Notes
-
 ---
 
 # 1. Introduction
@@ -1286,19 +1230,13 @@ The status bar provides continuous, non-intrusive feedback while allowing the us
 
 ---
 
-# 16. Revision Notes
-
-* Use the status bar for continuous, non-blocking feedback.
-* Update status information in response to events rather than constant polling.
-* Use indeterminate progress bars when the completion time is unknown.
-* Embed custom widgets for connection status, progress, or resource usage.
-* Perform UI updates only in the GUI thread.
-* Keep the status bar concise and focused on high-value information.
+[⬅️ Toolbars](/QToolbars.md)      |          [Dock Widgets ➡️](/QDockWidgets.md)
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
+Happy Coding!
 
 
-# 🚀 Next Chapter
-
-## **Chapter 43 — Dock Widgets (Complete Deep Dive)**
