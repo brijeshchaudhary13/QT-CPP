@@ -1640,7 +1640,7 @@ This workflow combines several standard dialog classes to provide a smooth user 
 * Always validate data before accepting a dialog.
 
 ---
-[⬅️ Layout Management](/QLayoutManagement.md)      |          [Menus ➡️](/QDialogs.md)
+[⬅️ Layout Management](/QLayoutManagement.md)      |          [Menus ➡️](/QMenus.md)
 ---
 ## **License**
 This project is licensed under the MIT License.
