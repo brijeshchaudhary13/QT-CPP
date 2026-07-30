@@ -1,5 +1,3 @@
-Excellent. **Chapter 38 is one of the most important chapters for desktop application developers.**
-
 Every professional Qt application works with multiple windows.
 
 Examples:
@@ -24,49 +22,7 @@ These applications use:
 Understanding window management is essential for building professional desktop applications.
 
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART V — GUI Programming
-
-# Chapter 38 — Window Management (Complete Deep Dive)
-
-## Part 1 — Top-Level Windows, Window States, Window Flags, QWidget vs QWindow & Window Lifecycle
-
-**Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What a window is
-* Top-level windows
-* Child windows
-* `QWidget` vs `QWindow`
-* Window lifecycle
-* Window states
-* Window flags
-* Window activation
-* Qt 5 vs Qt 6
-
----
-
-# Table of Contents
-
-1. What is a Window?
-2. Top-Level Windows
-3. Child Windows
-4. QWidget vs QWindow
-5. Window Lifecycle
-6. Window States
-7. Window Flags
-8. Window Activation
-9. Qt5 vs Qt6
-10. Best Practices
-11. Interview Questions
-12. Revision Notes
+# Chapter 38 — Window Management 
 
 ---
 
@@ -1692,29 +1648,14 @@ The dialog ensures that the patient database is not modified while a critical im
 * QPA bridges Qt window management with the native operating system.
 
 ---
-
-# 🎯 Chapter 38 Complete
-
-You now have a complete understanding of **Qt Window Management**, including:
-
-* Top-level and child windows
-* `QWidget` vs `QWindow`
-* Window lifecycle
-* Window states
-* Window flags
-* Modal and modeless windows
-* `exec()`, `open()`, and `show()`
-* Multi-monitor support
-* High-DPI handling
-* Native window handles
-* Window persistence
-* Qt Platform Abstraction (QPA)
-
-You are now equipped to design professional, multi-window desktop applications that behave correctly across platforms and display configurations.
+[⬅️ Layout Management](/QLayoutManagement.md)      |          [Dialogs ➡️](/QDialogs.md)
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🚀 Next Chapter
+Happy Coding!
 
-## **Chapter 39 — Dialogs (Complete Deep Dive)**
+
 
