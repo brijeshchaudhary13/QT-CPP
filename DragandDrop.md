@@ -830,7 +830,7 @@ Files may have been moved, deleted, or become inaccessible.
 
 ---
 
-[⬅️ MDI Applications](/QMDIApplications.md)      |          [Clipboard ➡️](/Clipboard.md)
+[⬅️ MDI Applications](/QMDIApplications.md)      |          [Clipboard ➡️](/QClipboard.md)
 ---
 ## **License**
 This project is licensed under the MIT License.
