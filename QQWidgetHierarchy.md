@@ -2,65 +2,11 @@ Excellent. This chapter teaches **how professional Qt applications organize hund
 
 A beginner may build a window with 10 widgets.
 
-A professional application like:
-
-* Qt Creator
-* Qt Designer
-* Medical Treatment Planning System (TPS)
-* AutoCAD
-* Enterprise ERP
-* GIS Software
-
-may contain **thousands of QWidget objects**.
-
 Without a proper widget hierarchy, such applications would be impossible to maintain.
 
 ---
 
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART V — GUI Programming
-
 # Chapter 36 — QWidget Hierarchy (Complete Deep Dive)
-
-## Part 1 — Parent-Child Hierarchy, Ownership Tree, Visual Tree, Widget Traversal & Dynamic Widgets
-
-**Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* QWidget hierarchy
-* Parent-child relationships
-* Ownership tree
-* Visual tree
-* Widget traversal
-* `findChild()`
-* `findChildren()`
-* Dynamic widget creation
-* Reparenting
-* Qt 5 vs Qt 6
-
----
-
-# Table of Contents
-
-1. Introduction
-2. Parent-Child Hierarchy
-3. Ownership Tree
-4. Visual Tree
-5. Widget Traversal
-6. `findChild()`
-7. `findChildren()`
-8. Dynamic Widgets
-9. Reparenting Widgets
-10. Qt5 vs Qt6
-11. Best Practices
-12. Interview Questions
-13. Revision Notes
 
 ---
 
@@ -1712,27 +1658,13 @@ Depending on which widget accepts or ignores the event, it may continue propagat
 * Large widget trees should be organized thoughtfully and updated efficiently.
 
 ---
-
-# 🎯 Chapter 36 Complete
-
-You now have a complete understanding of **QWidget Hierarchy**, including:
-
-* Parent-child relationships
-* Ownership tree
-* Visual hierarchy
-* Z-order
-* Event propagation
-* Focus chain
-* Painting hierarchy
-* Large widget tree optimization
-* Debugging techniques
-* Qt 5 → Qt 6 compatibility
-
-You now understand how Qt organizes, paints, manages, and destroys complex user interface hierarchies in professional desktop applications.
+[⬅️ QWidget Hierarchy](/QQWidgetHierarchy.md)      |          [Layout Management ➡️](/QLayoutManagement.md)
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🚀 Next Chapter
+Happy Coding!
 
-## **Chapter 37 — Layout Management (Complete Deep Dive)**
 
