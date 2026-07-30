@@ -1,4 +1,3 @@
-Excellent. **Chapter 37 is one of the most important chapters in Qt Widgets.**
 
 If there is **one thing every professional Qt developer must understand**, it is **Layout Management**.
 
@@ -22,50 +21,7 @@ This may work on **your computer**, but it often breaks when:
 Qt Layouts solve these problems automatically.
 
 ---
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART V — GUI Programming
-
 # Chapter 37 — Layout Management (Complete Deep Dive)
-
-## Part 1 — Introduction, QLayout, QHBoxLayout, QVBoxLayout, QGridLayout & QFormLayout
-
-**Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* Why layouts are important
-* What `QLayout` is
-* `QHBoxLayout`
-* `QVBoxLayout`
-* `QGridLayout`
-* `QFormLayout`
-* Nested layouts
-* Automatic resizing
-* Qt 5 vs Qt 6
-
----
-
-# Table of Contents
-
-1. What is a Layout?
-2. Why Layouts?
-3. QLayout Architecture
-4. QHBoxLayout
-5. QVBoxLayout
-6. QGridLayout
-7. QFormLayout
-8. Nested Layouts
-9. Layout Lifecycle
-10. Qt 5 vs Qt 6
-11. Best Practices
-12. Interview Questions
-13. Revision Notes
 
 ---
 
@@ -1599,32 +1555,13 @@ As the user resizes the window:
 * `activate()` performs layout recalculation immediately when needed.
 
 ---
-
-# 🎯 Chapter 37 Complete
-
-You now have a complete understanding of **Qt Layout Management**, including:
-
-* `QLayout`
-* `QHBoxLayout`
-* `QVBoxLayout`
-* `QGridLayout`
-* `QFormLayout`
-* Nested layouts
-* `QSizePolicy`
-* Stretch factors
-* Spacer items
-* Margins and spacing
-* Dynamic layouts
-* Layout negotiation
-* Layout engine internals
-* Performance optimization
-* Qt 5 → Qt 6 compatibility
-
-You now understand **not only how to use layouts, but also how the Qt Layout Engine decides where every widget should be placed**.
+[⬅️ QWidget Hierarchy](/QQWidgetHierarchy.md)      |          [Window Management ➡️](/QWindowManagement.md)
+---
+## **License**
+This project is licensed under the MIT License.
 
 ---
 
-# 🚀 Next Chapter
+Happy Coding!
 
-## **Chapter 38 — Window Management (Complete Deep Dive)**
 
