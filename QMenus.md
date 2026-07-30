@@ -1,70 +1,4 @@
-Excellent. **Chapter 40 is one of the most important GUI chapters in Qt.**
-
-Every professional desktop application has a menu system.
-
-Examples:
-
-* **Qt Creator**
-* **Visual Studio**
-* **AutoCAD**
-* **Adobe Photoshop**
-* **Microsoft Office**
-* **Medical TPS**
-* **Enterprise ERP**
-
-All of them use the same fundamental building blocks:
-
-* `QMenuBar`
-* `QMenu`
-* `QAction`
-
-If you understand these three classes, you can build almost any desktop menu system.
-
----
-
-# Complete Qt Master Course (Qt 5.15 LTS → Qt 6.11)
-
-# PART V — GUI Programming
-
-# Chapter 40 — Menus (Complete Deep Dive)
-
-## Part 1 — QMenuBar, QMenu, QAction, Menu Architecture & Action System
-
-> **Level:** Beginner → Expert
-
----
-
-# Chapter Objectives
-
-After completing this chapter, you will understand:
-
-* What is a menu?
-* `QMenuBar`
-* `QMenu`
-* `QAction`
-* Menu hierarchy
-* Menu architecture
-* Action system
-* Menu ownership
-* Qt 5 vs Qt 6
-
----
-
-# Table of Contents
-
-1. Introduction
-2. Menu Architecture
-3. QMenuBar
-4. QMenu
-5. QAction
-6. Action Lifecycle
-7. Menu Ownership
-8. Menu Hierarchy
-9. Qt 5 vs Qt 6
-10. Best Practices
-11. Interview Questions
-12. Revision Notes
-
+# Chapter 40 — Menus 
 ---
 
 # 1. Introduction
@@ -1595,9 +1529,13 @@ All of these interfaces reuse **one `QAction`**, ensuring consistent behavior an
 * One `QAction` should represent one application command, regardless of how many UI elements expose it.
 
 ---
+[⬅️ Dialogs](/QDialogs.md)      |          [Toolbars ➡️](/QToolbars.md)
+---
+## **License**
+This project is licensed under the MIT License.
 
+---
 
-# 🚀 Next Chapter
+Happy Coding!
 
-## **Chapter 41 — Toolbars (Complete Deep Dive)**
 
