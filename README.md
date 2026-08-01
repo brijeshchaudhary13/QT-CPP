@@ -35,31 +35,31 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 29         | [Event Dispatcher](/QEventDispatcher.md)           | Learn how Qt dispatches and processes events internally.                                                   |
 | 30         | [Events](/QEvents.md)                               | Learn mouse, keyboard, touch, gesture, and tablet events.                                                  |
 | 31         | [Event Filters](/QEventFilters.md)                 | Learn event interception and filtering mechanisms.                                                         |
-| 32         | [Custom Events](/part4/custom-events.md)                 | Create and process user-defined events.                                                                    |
-| 33         | [Timers](/part4/timers.md)                               | Learn timer-based programming using Qt timers.                                                             |
-| 34         | [Thread Affinity](/part4/thread-affinity.md)             | Understand object ownership across multiple threads.                                                       |
-| 35         | [QWidget](/part5/qwidget.md)                             | Master QWidget and desktop GUI programming.                                                                |
-| 36         | [QWidget Hierarchy](/part5/qwidget-hierarchy.md)         | Understand the widget inheritance hierarchy.                                                               |
-| 37         | [Layout Management](/part5/layout-management.md)         | Build responsive user interfaces using layouts.                                                            |
-| 38         | [Window Management](/part5/window-management.md)         | Learn window creation, management, and customization.                                                      |
-| 39         | [Dialogs](/part5/dialogs.md)                             | Learn standard and custom dialog development.                                                              |
-| 40         | [Menus](/part5/menus.md)                                 | Learn menu bars, context menus, and actions.                                                               |
-| 41         | [Toolbars](/part5/toolbars.md)                               | Learn how to create and customize toolbars for desktop applications.       |
-| 42         | [Status Bars](/part5/status-bars.md)                         | Display application status, progress, and notifications using status bars. |
-| 43         | [Dock Widgets](/part5/dock-widgets.md)                       | Build flexible and dockable user interfaces with QDockWidget.              |
-| 44         | [MDI Applications](/part5/mdi-applications.md)               | Develop Multiple Document Interface (MDI) applications.                    |
-| 45         | [Drag and Drop](/part5/drag-and-drop.md)                     | Implement drag-and-drop functionality between widgets and applications.    |
-| 46         | [Clipboard](/part5/clipboard.md)                             | Learn clipboard operations including copy, cut, and paste.                 |
-| 47         | [Cursor Handling](/part5/cursor-handling.md)                 | Customize mouse cursors and cursor behavior.                               |
-| 48         | [Focus Handling](/part5/focus-handling.md)                   | Understand keyboard focus management and focus policies.                   |
-| 49         | [QPainter](/part6/qpainter.md)                               | Master 2D painting, drawing primitives, transformations, and rendering.    |
-| 50         | [Paint Engine](/part6/paint-engine.md)                       | Understand Qt's paint engine architecture and rendering pipeline.          |
-| 51         | [Coordinate System](/part6/coordinate-system.md)             | Learn world, window, viewport, and transformation coordinates.             |
-| 52         | [Graphics View Framework](/part6/graphics-view-framework.md) | Build high-performance 2D graphics applications using Graphics View.       |
-| 53         | [QGraphicsScene](/part6/qgraphicsscene.md)                   | Manage graphical items and scene-based rendering.                          |
-| 54         | [QGraphicsItem](/part6/qgraphicsitem.md)                     | Create custom graphical objects and interactive items.                     |
-| 55         | [OpenGL Integration](/part6/opengl-integration.md)           | Integrate OpenGL with Qt for hardware-accelerated rendering.               |
-| 56         | [Qt3D](/part6/qt3d.md)                                       | Learn 3D graphics programming using the Qt3D framework.                    |
+| 32         | [Custom Events](/QCustomEvents.md)                 | Create and process user-defined events.                                                                    |
+| 33         | [Timers](/QTimers.md)                               | Learn timer-based programming using Qt timers.                                                             |
+| 34         | [Thread Affinity](/QThreadAffinity.md)             | Understand object ownership across multiple threads.                                                       |
+| 35         | [QWidget](/QQWidget.md)                             | Master QWidget and desktop GUI programming.                                                                |
+| 36         | [QWidget Hierarchy](/QQWidgetHierarchy.md)         | Understand the widget inheritance hierarchy.                                                               |
+| 37         | [Layout Management](/QLayoutManagement.md)         | Build responsive user interfaces using layouts.                                                            |
+| 38         | [Window Management](/QWindowManagement.md)         | Learn window creation, management, and customization.                                                      |
+| 39         | [Dialogs](/QDialogs.md)                             | Learn standard and custom dialog development.                                                              |
+| 40         | [Menus](/QMenus.md)                                 | Learn menu bars, context menus, and actions.                                                               |
+| 41         | [Toolbars](/QToolbars.md)                               | Learn how to create and customize toolbars for desktop applications.       |
+| 42         | [Status Bars](/part5/QStatusBars.md)                         | Display application status, progress, and notifications using status bars. |
+| 43         | [Dock Widgets](/QDockWidgets.md)                       | Build flexible and dockable user interfaces with QDockWidget.              |
+| 44         | [MDI Applications](/QMDIApplications.md)               | Develop Multiple Document Interface (MDI) applications.                    |
+| 45         | [Drag and Drop](/QDragandDrop.md)                     | Implement drag-and-drop functionality between widgets and applications.    |
+| 46         | [Clipboard](/QClipboard.md)                             | Learn clipboard operations including copy, cut, and paste.                 |
+| 47         | [Cursor Handling](/QCursorHandling.md)                 | Customize mouse cursors and cursor behavior.                               |
+| 48         | [Focus Handling](/QFocusHandling.md)                   | Understand keyboard focus management and focus policies.                   |
+| 49         | [QPainter](/QQPainter.md)                               | Master 2D painting, drawing primitives, transformations, and rendering.    |
+| 50         | [Paint Engine](/QPaintEngine.md)                       | Understand Qt's paint engine architecture and rendering pipeline.          |
+| 51         | [Coordinate System](/QCoordinateSystem.md)             | Learn world, window, viewport, and transformation coordinates.             |
+| 52         | [Graphics View Framework](/QGraphicsViewFramework.md) | Build high-performance 2D graphics applications using Graphics View.       |
+| 53         | [QGraphicsScene](/QQGraphicsScene.md)                   | Manage graphical items and scene-based rendering.                          |
+| 54         | [QGraphicsItem](/QQGraphicsItem.md)                     | Create custom graphical objects and interactive items.                     |
+| 55         | [OpenGL Integration](/QOpenGLIntegration.md)           | Integrate OpenGL with Qt for hardware-accelerated rendering.               |
+| 56         | [Qt3D](/QQt3D.md)                                       | Learn 3D graphics programming using the Qt3D framework.                    |
 | 57         | [Model/View Programming](/part7/model-view-programming.md)   | Understand Qt's Model/View architecture and data separation.               |
 | 58         | [Models](/part7/models.md)                                   | Create standard and custom data models.                                    |
 | 59         | [Views](/part7/views.md)                                     | Display model data using various Qt view classes.                          |
