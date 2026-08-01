@@ -45,7 +45,7 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 39         | [Dialogs](/QDialogs.md)                             | Learn standard and custom dialog development.                                                              |
 | 40         | [Menus](/QMenus.md)                                 | Learn menu bars, context menus, and actions.                                                               |
 | 41         | [Toolbars](/QToolbars.md)                               | Learn how to create and customize toolbars for desktop applications.       |
-| 42         | [Status Bars](/part5/QStatusBars.md)                         | Display application status, progress, and notifications using status bars. |
+| 42         | [Status Bars](/QStatusBars.md)                         | Display application status, progress, and notifications using status bars. |
 | 43         | [Dock Widgets](/QDockWidgets.md)                       | Build flexible and dockable user interfaces with QDockWidget.              |
 | 44         | [MDI Applications](/QMDIApplications.md)               | Develop Multiple Document Interface (MDI) applications.                    |
 | 45         | [Drag and Drop](/QDragandDrop.md)                     | Implement drag-and-drop functionality between widgets and applications.    |
