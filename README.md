@@ -89,23 +89,23 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 83         | [Qt Concurrent](/QQtConcurrent.md)                           | Simplify parallel programming using the Qt Concurrent framework.                     |
 | 84         | [Synchronization](/QSynchronization.md)                       | Learn mutexes, semaphores, atomic operations, wait conditions, and read-write locks. |
 | 85         | [Producer–Consumer Pattern](/QProducerConsumer.md)           | Implement thread-safe producer–consumer architectures.                               |
-| 86         | [QML](/QQml.md)                                               | Learn the fundamentals of QML for modern Qt user interfaces.                         |
-| 87         | [QML Engine](/QQmlEngine.md)                                 | Understand the QML engine, execution model, and runtime behavior.                    |
-| 88         | [JavaScript in QML](/QJavascript.md)                          | Use JavaScript to add logic and interactivity to QML applications.                   |
+| 86         | [QML](/QQML.md)                                               | Learn the fundamentals of QML for modern Qt user interfaces.                         |
+| 87         | [QML Engine](/QQMLEngine.md)                                 | Understand the QML engine, execution model, and runtime behavior.                    |
+| 88         | [JavaScript in QML](/QJavaScript.md)                          | Use JavaScript to add logic and interactivity to QML applications.                   |
 | 89         | [Property Binding](/QPropertyBinding.md)                     | Master Qt's declarative property binding system.                                     |
 | 90         | [Scene Graph](/QSceneGraph.md)                               | Learn the Qt Quick Scene Graph architecture and rendering pipeline.                  |
-| 91         | [Qt Quick Controls](/part12/qt-quick-controls.md)                   | Build modern cross-platform user interfaces with Qt Quick Controls.                  |
-| 92         | [Custom QML Types](/part12/custom-qml-types.md)                     | Expose C++ classes to QML and create reusable custom components.                     |
-| 93         | [Qt Multimedia](/part13/qt-multimedia.md)                           | Develop applications with audio, video, and camera support.                          |
-| 94         | [Qt Charts](/part13/qt-charts.md)                                   | Create interactive charts and data visualizations.                                   |
-| 95         | [Qt SVG](/part13/qt-svg.md)                                         | Render and manipulate SVG graphics using Qt.                                         |
-| 96         | [Qt PDF](/part13/qt-pdf.md)                                         | Display, generate, and process PDF documents.                                        |
-| 97         | [Qt WebEngine](/part13/qt-webengine.md)                             | Embed Chromium-based web content into Qt applications.                               |
-| 98         | [Qt Bluetooth](/part13/qt-bluetooth.md)                             | Develop Bluetooth-enabled desktop and mobile applications.                           |
-| 99         | [Qt CAN Bus](/part13/qt-can-bus.md)                                 | Communicate with CAN bus devices using the Qt SerialBus module.                      |
-| 100        | [Qt Serial Port](/part13/qt-serial-port.md)                         | Communicate with serial devices using Qt Serial Port.                                |
-| 101        | [Modern CMake](/part14/modern-cmake.md)                             | Master modern CMake for Qt 6 application development.                                |
-| 102        | [qmake](/part14/qmake.md)                                           | Learn qmake for maintaining and building legacy Qt projects.                         |
+| 91         | [Qt Quick Controls](/QQtQuickControls.md)                   | Build modern cross-platform user interfaces with Qt Quick Controls.                  |
+| 92         | [Custom QML Types](/CustomQmlTypes.md)                     | Expose C++ classes to QML and create reusable custom components.                     |
+| 93         | [Qt Multimedia](/QtMultimedia.md)                           | Develop applications with audio, video, and camera support.                          |
+| 94         | [Qt Charts](/QQtCharts.md)                                   | Create interactive charts and data visualizations.                                   |
+| 95         | [Qt SVG](/QQtSvg.md)                                         | Render and manipulate SVG graphics using Qt.                                         |
+| 96         | [Qt PDF](/QQtPdf.md)                                         | Display, generate, and process PDF documents.                                        |
+| 97         | [Qt WebEngine](/QQtWebengine.md)                             | Embed Chromium-based web content into Qt applications.                               |
+| 98         | [Qt Bluetooth](/QQtBluetooth.md)                             | Develop Bluetooth-enabled desktop and mobile applications.                           |
+| 99         | [Qt CAN Bus](/QQtCanBus.md)                                 | Communicate with CAN bus devices using the Qt SerialBus module.                      |
+| 100        | [Qt Serial Port](/QQtSerialPort.md)                         | Communicate with serial devices using Qt Serial Port.                                |
+| 101        | [Modern CMake](/QModernCmake.md)                             | Master modern CMake for Qt 6 application development.                                |
+| 102        | [qmake](/QQmake.md)                                           | Learn qmake for maintaining and building legacy Qt projects.                         |
 | 103        | [Cross Compilation](/part14/cross-compilation.md)                   | Build Qt applications for embedded and cross-platform targets.                       |
 | 104        | [Deployment](/part14/deployment.md)                                 | Deploy Qt applications on Windows, Linux, macOS, and Android.                        |
 | 105        | [QObject Internals](/part15/qobject-internals.md)                   | Explore the internal implementation of QObject.                                      |
