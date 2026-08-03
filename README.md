@@ -60,40 +60,40 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 54         | [QGraphicsItem](/QQGraphicsItem.md)                     | Create custom graphical objects and interactive items.                     |
 | 55         | [OpenGL Integration](/QOpenGLIntegration.md)           | Integrate OpenGL with Qt for hardware-accelerated rendering.               |
 | 56         | [Qt3D](/QQt3D.md)                                       | Learn 3D graphics programming using the Qt3D framework.                    |
-| 57         | [Model/View Programming](/part7/model-view-programming.md)   | Understand Qt's Model/View architecture and data separation.               |
-| 58         | [Models](/part7/models.md)                                   | Create standard and custom data models.                                    |
-| 59         | [Views](/part7/views.md)                                     | Display model data using various Qt view classes.                          |
-| 60         | [Delegates](/part7/delegates.md)                             | Customize item rendering and editing using delegates.                      |
-| 61         | [Proxy Models](/part7/proxy-models.md)                       | Filter, sort, and transform model data using proxy models.                 |
-| 62         | [MVC vs MVVM](/part7/mvc-vs-mvvm.md)                         | Compare MVC and MVVM architectures in Qt applications.                     |
-| 63         | [QFile](/part8/qfile.md)                                     | Perform file operations including reading, writing, and file management.   |
-| 64         | [QTextStream](/part8/qtextstream.md)                         | Read and write formatted text using QTextStream.                           |
-| 65         | [QDataStream](/part8/qdatastream.md)                         | Serialize and deserialize binary data using QDataStream.                   |
-| 66         | [JSON](/part8/json.md)                                       | Parse, create, and manipulate JSON data in Qt.                             |
-| 67         | [XML](/part8/xml.md)                                         | Read, write, and process XML documents using Qt XML APIs.                  |
-| 68         | [Serialization](/part8/serialization.md)                     | Learn object serialization and persistent data storage.                    |
-| 69         | [Qt SQL](/part9/qt-sql.md)                                   | Connect applications with SQL databases using Qt SQL module.               |
-| 70         | [SQLite](/part9/sqlite.md)                                   | Build applications using SQLite database integration.                      |
-| 71         | [MySQL](/part9/mysql.md)                                     | Connect Qt applications with MySQL databases.                              |
-| 72         | [PostgreSQL](/part9/postgresql.md)                           | Integrate PostgreSQL database support in Qt applications.                  |
-| 73         | [Transactions](/part9/transactions.md)                       | Learn transaction management and database consistency.                     |
-| 74         | [TCP](/part10/tcp.md)                                        | Build reliable TCP client-server applications using Qt Network.            |
-| 75         | [UDP](/part10/udp.md)                                        | Develop lightweight communication using UDP sockets.                       |
-| 76         | [HTTP](/part10/http.md)                                      | Send HTTP requests and process responses using Qt Network.                 |
-| 77         | [REST API](/part10/rest-api.md)                              | Consume and build RESTful services with Qt.                                |
-| 78         | [WebSocket](/part10/websocket.md)                            | Implement real-time communication using WebSockets.                        |
-| 79         | [SSL](/part10/ssl.md)                                        | Secure network communication using SSL/TLS in Qt.                          |
-| 80         | [QThread](/part11/qthread.md)                                | Learn multithreading fundamentals and thread management using QThread.     |
-| 81         | [Worker Pattern](/part11/worker-pattern.md)                         | Learn the recommended Worker Object pattern for multithreaded Qt applications.       |
-| 82         | [Thread Pool](/part11/thread-pool.md)                               | Execute multiple tasks efficiently using QThreadPool and QRunnable.                  |
-| 83         | [Qt Concurrent](/part11/qt-concurrent.md)                           | Simplify parallel programming using the Qt Concurrent framework.                     |
-| 84         | [Synchronization](/part11/synchronization.md)                       | Learn mutexes, semaphores, atomic operations, wait conditions, and read-write locks. |
-| 85         | [Producer–Consumer Pattern](/part11/producer-consumer.md)           | Implement thread-safe producer–consumer architectures.                               |
-| 86         | [QML](/part12/qml.md)                                               | Learn the fundamentals of QML for modern Qt user interfaces.                         |
-| 87         | [QML Engine](/part12/qml-engine.md)                                 | Understand the QML engine, execution model, and runtime behavior.                    |
-| 88         | [JavaScript in QML](/part12/javascript.md)                          | Use JavaScript to add logic and interactivity to QML applications.                   |
-| 89         | [Property Binding](/part12/property-binding.md)                     | Master Qt's declarative property binding system.                                     |
-| 90         | [Scene Graph](/part12/scene-graph.md)                               | Learn the Qt Quick Scene Graph architecture and rendering pipeline.                  |
+| 57         | [Model/View Programming](/QModelViewProgramming.md)   | Understand Qt's Model/View architecture and data separation.               |
+| 58         | [Models](/QModels.md)                                   | Create standard and custom data models.                                    |
+| 59         | [Views](/QViews.md)                                     | Display model data using various Qt view classes.                          |
+| 60         | [Delegates](/QDelegates.md)                             | Customize item rendering and editing using delegates.                      |
+| 61         | [Proxy Models](/QProxyModels.md)                       | Filter, sort, and transform model data using proxy models.                 |
+| 62         | [MVC vs MVVM](/QMVCvsMVVM.md)                         | Compare MVC and MVVM architectures in Qt applications.                     |
+| 63         | [QFile](/QQfile.md)                                     | Perform file operations including reading, writing, and file management.   |
+| 64         | [QTextStream](/QQtextstream.md)                         | Read and write formatted text using QTextStream.                           |
+| 65         | [QDataStream](/QQdatastream.md)                         | Serialize and deserialize binary data using QDataStream.                   |
+| 66         | [JSON](/QJson.md)                                       | Parse, create, and manipulate JSON data in Qt.                             |
+| 67         | [XML](/QXml.md)                                         | Read, write, and process XML documents using Qt XML APIs.                  |
+| 68         | [Serialization](/QSerialization.md)                     | Learn object serialization and persistent data storage.                    |
+| 69         | [Qt SQL](/QQtSQL.md)                                   | Connect applications with SQL databases using Qt SQL module.               |
+| 70         | [SQLite](/QSqlite.md)                                   | Build applications using SQLite database integration.                      |
+| 71         | [MySQL](/QMysql.md)                                     | Connect Qt applications with MySQL databases.                              |
+| 72         | [PostgreSQL](/QPostgresql.md)                           | Integrate PostgreSQL database support in Qt applications.                  |
+| 73         | [Transactions](/QTransactions.md)                       | Learn transaction management and database consistency.                     |
+| 74         | [TCP](/QTcp.md)                                        | Build reliable TCP client-server applications using Qt Network.            |
+| 75         | [UDP](/QUdp.md)                                        | Develop lightweight communication using UDP sockets.                       |
+| 76         | [HTTP](/QHttp.md)                                      | Send HTTP requests and process responses using Qt Network.                 |
+| 77         | [REST API](/QRestApi.md)                              | Consume and build RESTful services with Qt.                                |
+| 78         | [WebSocket](/QWebsocket.md)                            | Implement real-time communication using WebSockets.                        |
+| 79         | [SSL](/QSsl.md)                                        | Secure network communication using SSL/TLS in Qt.                          |
+| 80         | [QThread](/QQthread.md)                                | Learn multithreading fundamentals and thread management using QThread.     |
+| 81         | [Worker Pattern](/QWrkerPattern.md)                         | Learn the recommended Worker Object pattern for multithreaded Qt applications.       |
+| 82         | [Thread Pool](/QThreadPool.md)                               | Execute multiple tasks efficiently using QThreadPool and QRunnable.                  |
+| 83         | [Qt Concurrent](/QQtConcurrent.md)                           | Simplify parallel programming using the Qt Concurrent framework.                     |
+| 84         | [Synchronization](/QSynchronization.md)                       | Learn mutexes, semaphores, atomic operations, wait conditions, and read-write locks. |
+| 85         | [Producer–Consumer Pattern](/QProducerConsumer.md)           | Implement thread-safe producer–consumer architectures.                               |
+| 86         | [QML](/QQml.md)                                               | Learn the fundamentals of QML for modern Qt user interfaces.                         |
+| 87         | [QML Engine](/QQmlEngine.md)                                 | Understand the QML engine, execution model, and runtime behavior.                    |
+| 88         | [JavaScript in QML](/QJavascript.md)                          | Use JavaScript to add logic and interactivity to QML applications.                   |
+| 89         | [Property Binding](/QPropertyBinding.md)                     | Master Qt's declarative property binding system.                                     |
+| 90         | [Scene Graph](/QSceneGraph.md)                               | Learn the Qt Quick Scene Graph architecture and rendering pipeline.                  |
 | 91         | [Qt Quick Controls](/part12/qt-quick-controls.md)                   | Build modern cross-platform user interfaces with Qt Quick Controls.                  |
 | 92         | [Custom QML Types](/part12/custom-qml-types.md)                     | Expose C++ classes to QML and create reusable custom components.                     |
 | 93         | [Qt Multimedia](/part13/qt-multimedia.md)                           | Develop applications with audio, video, and camera support.                          |
