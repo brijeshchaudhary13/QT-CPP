@@ -66,9 +66,9 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 60         | [Delegates](/QDelegates.md)                             | Customize item rendering and editing using delegates.                      |
 | 61         | [Proxy Models](/QProxyModels.md)                       | Filter, sort, and transform model data using proxy models.                 |
 | 62         | [MVC vs MVVM](/QMVCvsMVVM.md)                         | Compare MVC and MVVM architectures in Qt applications.                     |
-| 63         | [QFile](/QQfile.md)                                     | Perform file operations including reading, writing, and file management.   |
-| 64         | [QTextStream](/QQtextstream.md)                         | Read and write formatted text using QTextStream.                           |
-| 65         | [QDataStream](/QQdatastream.md)                         | Serialize and deserialize binary data using QDataStream.                   |
+| 63         | [QFile](/QQFile.md)                                     | Perform file operations including reading, writing, and file management.   |
+| 64         | [QTextStream](/QQTextStream.md)                         | Read and write formatted text using QTextStream.                           |
+| 65         | [QDataStream](/QQDataStream.md)                         | Serialize and deserialize binary data using QDataStream.                   |
 | 66         | [JSON](/QJson.md)                                       | Parse, create, and manipulate JSON data in Qt.                             |
 | 67         | [XML](/QXml.md)                                         | Read, write, and process XML documents using Qt XML APIs.                  |
 | 68         | [Serialization](/QSerialization.md)                     | Learn object serialization and persistent data storage.                    |
