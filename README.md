@@ -88,21 +88,21 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 82         | [Thread Pool](/QThreadPool.md)                               | Execute multiple tasks efficiently using QThreadPool and QRunnable.                  |
 | 83         | [Qt Concurrent](/QQtConcurrent.md)                           | Simplify parallel programming using the Qt Concurrent framework.                     |
 | 84         | [Synchronization](/QSynchronization.md)                       | Learn mutexes, semaphores, atomic operations, wait conditions, and read-write locks. |
-| 85         | [Producer–Consumer Pattern](/QProducerConsumer.md)           | Implement thread-safe producer–consumer architectures.                               |
+| 85         | [Producer–Consumer Pattern](/QProducerConsumerPattern.md)           | Implement thread-safe producer–consumer architectures.                               |
 | 86         | [QML](/QQML.md)                                               | Learn the fundamentals of QML for modern Qt user interfaces.                         |
 | 87         | [QML Engine](/QQMLEngine.md)                                 | Understand the QML engine, execution model, and runtime behavior.                    |
-| 88         | [JavaScript in QML](/QJavaScript.md)                          | Use JavaScript to add logic and interactivity to QML applications.                   |
+| 88         | [JavaScript in QML](/QJavaScriptinQML.md)                          | Use JavaScript to add logic and interactivity to QML applications.                   |
 | 89         | [Property Binding](/QPropertyBinding.md)                     | Master Qt's declarative property binding system.                                     |
 | 90         | [Scene Graph](/QSceneGraph.md)                               | Learn the Qt Quick Scene Graph architecture and rendering pipeline.                  |
 | 91         | [Qt Quick Controls](/QQtQuickControls.md)                   | Build modern cross-platform user interfaces with Qt Quick Controls.                  |
-| 92         | [Custom QML Types](/CustomQmlTypes.md)                     | Expose C++ classes to QML and create reusable custom components.                     |
-| 93         | [Qt Multimedia](/QtMultimedia.md)                           | Develop applications with audio, video, and camera support.                          |
+| 92         | [Custom QML Types](/QCustomQMLTypes.md)                     | Expose C++ classes to QML and create reusable custom components.                     |
+| 93         | [Qt Multimedia](/QQtMultimedia.md)                           | Develop applications with audio, video, and camera support.                          |
 | 94         | [Qt Charts](/QQtCharts.md)                                   | Create interactive charts and data visualizations.                                   |
-| 95         | [Qt SVG](/QQtSvg.md)                                         | Render and manipulate SVG graphics using Qt.                                         |
-| 96         | [Qt PDF](/QQtPdf.md)                                         | Display, generate, and process PDF documents.                                        |
-| 97         | [Qt WebEngine](/QQtWebengine.md)                             | Embed Chromium-based web content into Qt applications.                               |
+| 95         | [Qt SVG](/QQtSVG.md)                                         | Render and manipulate SVG graphics using Qt.                                         |
+| 96         | [Qt PDF](/QQtPDF.md)                                         | Display, generate, and process PDF documents.                                        |
+| 97         | [Qt WebEngine](/QQtWebEngine.md)                             | Embed Chromium-based web content into Qt applications.                               |
 | 98         | [Qt Bluetooth](/QQtBluetooth.md)                             | Develop Bluetooth-enabled desktop and mobile applications.                           |
-| 99         | [Qt CAN Bus](/QQtCanBus.md)                                 | Communicate with CAN bus devices using the Qt SerialBus module.                      |
+| 99         | [Qt CAN Bus](/QQtCANBus.md)                                 | Communicate with CAN bus devices using the Qt SerialBus module.                      |
 | 100        | [Qt Serial Port](/QQtSerialPort.md)                         | Communicate with serial devices using Qt Serial Port.                                |
 | 101        | [Modern CMake](/QModernCmake.md)                             | Master modern CMake for Qt 6 application development.                                |
 | 102        | [qmake](/QQmake.md)                                           | Learn qmake for maintaining and building legacy Qt projects.                         |
