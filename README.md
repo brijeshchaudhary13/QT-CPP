@@ -69,8 +69,8 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 63         | [QFile](/QQFile.md)                                     | Perform file operations including reading, writing, and file management.   |
 | 64         | [QTextStream](/QQTextStream.md)                         | Read and write formatted text using QTextStream.                           |
 | 65         | [QDataStream](/QQDataStream.md)                         | Serialize and deserialize binary data using QDataStream.                   |
-| 66         | [JSON](/QJson.md)                                       | Parse, create, and manipulate JSON data in Qt.                             |
-| 67         | [XML](/QXml.md)                                         | Read, write, and process XML documents using Qt XML APIs.                  |
+| 66         | [JSON](/QJSON.md)                                       | Parse, create, and manipulate JSON data in Qt.                             |
+| 67         | [XML](/QXML.md)                                         | Read, write, and process XML documents using Qt XML APIs.                  |
 | 68         | [Serialization](/QSerialization.md)                     | Learn object serialization and persistent data storage.                    |
 | 69         | [Qt SQL](/QQtSQL.md)                                   | Connect applications with SQL databases using Qt SQL module.               |
 | 70         | [SQLite](/QSqlite.md)                                   | Build applications using SQLite database integration.                      |
