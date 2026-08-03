@@ -73,17 +73,17 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 67         | [XML](/QXML.md)                                         | Read, write, and process XML documents using Qt XML APIs.                  |
 | 68         | [Serialization](/QSerialization.md)                     | Learn object serialization and persistent data storage.                    |
 | 69         | [Qt SQL](/QQtSQL.md)                                   | Connect applications with SQL databases using Qt SQL module.               |
-| 70         | [SQLite](/QSqlite.md)                                   | Build applications using SQLite database integration.                      |
-| 71         | [MySQL](/QMysql.md)                                     | Connect Qt applications with MySQL databases.                              |
-| 72         | [PostgreSQL](/QPostgresql.md)                           | Integrate PostgreSQL database support in Qt applications.                  |
+| 70         | [SQLite](/QSQLite.md)                                   | Build applications using SQLite database integration.                      |
+| 71         | [MySQL](/QMySQL.md)                                     | Connect Qt applications with MySQL databases.                              |
+| 72         | [PostgreSQL](/QPostgreSQL.md)                           | Integrate PostgreSQL database support in Qt applications.                  |
 | 73         | [Transactions](/QTransactions.md)                       | Learn transaction management and database consistency.                     |
-| 74         | [TCP](/QTcp.md)                                        | Build reliable TCP client-server applications using Qt Network.            |
-| 75         | [UDP](/QUdp.md)                                        | Develop lightweight communication using UDP sockets.                       |
-| 76         | [HTTP](/QHttp.md)                                      | Send HTTP requests and process responses using Qt Network.                 |
+| 74         | [TCP](/QTCP.md)                                        | Build reliable TCP client-server applications using Qt Network.            |
+| 75         | [UDP](/QUDP.md)                                        | Develop lightweight communication using UDP sockets.                       |
+| 76         | [HTTP](/QHTTP.md)                                      | Send HTTP requests and process responses using Qt Network.                 |
 | 77         | [REST API](/QRestApi.md)                              | Consume and build RESTful services with Qt.                                |
 | 78         | [WebSocket](/QWebsocket.md)                            | Implement real-time communication using WebSockets.                        |
-| 79         | [SSL](/QSsl.md)                                        | Secure network communication using SSL/TLS in Qt.                          |
-| 80         | [QThread](/QQthread.md)                                | Learn multithreading fundamentals and thread management using QThread.     |
+| 79         | [SSL](/QSSL.md)                                        | Secure network communication using SSL/TLS in Qt.                          |
+| 80         | [QThread](/QQThread.md)                                | Learn multithreading fundamentals and thread management using QThread.     |
 | 81         | [Worker Pattern](/QWrkerPattern.md)                         | Learn the recommended Worker Object pattern for multithreaded Qt applications.       |
 | 82         | [Thread Pool](/QThreadPool.md)                               | Execute multiple tasks efficiently using QThreadPool and QRunnable.                  |
 | 83         | [Qt Concurrent](/QQtConcurrent.md)                           | Simplify parallel programming using the Qt Concurrent framework.                     |
