@@ -80,11 +80,11 @@ A comprehensive roadmap covering Qt development from fundamentals to advanced en
 | 74         | [TCP](/QTCP.md)                                        | Build reliable TCP client-server applications using Qt Network.            |
 | 75         | [UDP](/QUDP.md)                                        | Develop lightweight communication using UDP sockets.                       |
 | 76         | [HTTP](/QHTTP.md)                                      | Send HTTP requests and process responses using Qt Network.                 |
-| 77         | [REST API](/QRestApi.md)                              | Consume and build RESTful services with Qt.                                |
-| 78         | [WebSocket](/QWebsocket.md)                            | Implement real-time communication using WebSockets.                        |
-| 79         | [SSL](/QSSL.md)                                        | Secure network communication using SSL/TLS in Qt.                          |
+| 77         | [REST API](/QRESTAPI.md)                              | Consume and build RESTful services with Qt.                                |
+| 78         | [WebSocket](/QWebSocket.md)                            | Implement real-time communication using WebSockets.                        |
+| 79         | [SSL](/QSSL_TLS.md)                                        | Secure network communication using SSL/TLS in Qt.                          |
 | 80         | [QThread](/QQThread.md)                                | Learn multithreading fundamentals and thread management using QThread.     |
-| 81         | [Worker Pattern](/QWrkerPattern.md)                         | Learn the recommended Worker Object pattern for multithreaded Qt applications.       |
+| 81         | [Worker Pattern](/QWorkerPattern.md)                         | Learn the recommended Worker Object pattern for multithreaded Qt applications.       |
 | 82         | [Thread Pool](/QThreadPool.md)                               | Execute multiple tasks efficiently using QThreadPool and QRunnable.                  |
 | 83         | [Qt Concurrent](/QQtConcurrent.md)                           | Simplify parallel programming using the Qt Concurrent framework.                     |
 | 84         | [Synchronization](/QSynchronization.md)                       | Learn mutexes, semaphores, atomic operations, wait conditions, and read-write locks. |
